@@ -1,0 +1,178 @@
+{
+  "id": "sag4",
+  "kapitel": 1,
+  "nummer": 4,
+  "titel": "Manden fra Ballum",
+  "undertitel": "Oldefars egen sag – kapitlets finale",
+  "periode": "1897–1925",
+  "mekanikker": ["fotogenkendelse", "krydstjek"],
+  "kunde": {
+    "navn": "Familien selv",
+    "portraet": "morfar",
+    "intro": "Ingen kunde denne gang. Det er din egen familie. Oldefar kan ikke være Jens Peder Iversen – han døde i 1899. Men hvem var han så? Du tager dit arvestykke frem fra skuffen. Det har ligget der hele tiden."
+  },
+  "startspor": {
+    "_note": "Vises efter valgt fætter. Alle fem spor peger mod Ballum i Nordslesvig.",
+    "mads": { "arvestykke": "lommeur", "tekst": "Lommeuret: »P. A. H. – Zur Erinnerung an die Konfirmation 1911«. Tysk. Og P.A.H. – ikke J.P.I." },
+    "jp": { "arvestykke": "afklippet_foto", "tekst": "Det afklippede foto: unge mænd i tysk uniform, »Ballum 1916«. Det udklippede ansigt sidder som nummer tre fra venstre." },
+    "kasper": { "arvestykke": "postkort", "tekst": "Postkortet fra 1918: aldrig sendt, adressen streget ud – men »Ballum« kan læses. Underskrevet »Din Peter«." },
+    "soeren": { "arvestykke": "salmebog", "tekst": "Salmebogen: »Peter Asmus Hansen, Ballum, konfirmeret 1911«. Nogen har prøvet at viske navnet ud." },
+    "anders": { "arvestykke": "soldaterbog", "tekst": "Siden fra soldaterbogen: »Hansen, Peter Asm.… Füs.-Regt. Nr. 86 … Ballum«." }
+  },
+  "faelles_noter": [
+    "Oldefar kaldte sig Jens Peder Iversen – men ham døde i 1899",
+    "Arvestykket peger mod Ballum (Nordslesvig, tysk 1864–1920)",
+    "Morfar: oldefar talte tysk i søvne og ville aldrig over Kongeåen"
+  ],
+  "dokumenter": [
+    {
+      "id": "foto_bryllup_1925",
+      "type": "foto",
+      "titel": "Bryllupsfoto, Ribe 1925 (lånt af Karl Erik Bundgaard)",
+      "billede": "oldefar_bryllup_1925",
+      "personer": [
+        { "id": "brudgom", "navn": "»Jens Peder Iversen«", "traek": ["kløft i hagen", "ar gennem venstre øjenbryn", "udstående ører", "lyst hår", "overskæg"] },
+        { "id": "brud", "navn": "Karen Marie Bundgaard", "traek": [] }
+      ]
+    },
+    {
+      "id": "foto_ballum_1916",
+      "type": "foto",
+      "titel": "Gruppefoto af indkaldte fra Ballum sogn, 1916 – fra lokalarkivet i Ballum",
+      "billede": "sag4_gruppefoto_1916",
+      "bagside": "Ballum 1916. Fra venstre: Nis Petersen, Jørgen Nissen, Peter Asmus Hansen, Christian Jessen, H. P. Lorenzen, Andreas Schmidt.",
+      "personer": [
+        { "id": "sol1", "plads": 1, "billede": "sag4_soldat_1", "navn": "Nis Petersen", "traek": ["kløft i hagen", "udstående ører", "ar over overlæben", "mørkt hår"] },
+        { "id": "sol2", "plads": 2, "billede": "sag4_soldat_2", "navn": "Jørgen Nissen", "traek": ["ar gennem højre øjenbryn", "udstående ører", "lyst hår", "overskæg"] },
+        { "id": "sol3", "plads": 3, "billede": "sag4_soldat_3", "navn": "Peter Asmus Hansen", "traek": ["kløft i hagen", "ar gennem venstre øjenbryn", "udstående ører", "lyst hår"] },
+        { "id": "sol4", "plads": 4, "billede": "sag4_soldat_4", "navn": "Christian Jessen", "traek": ["runde briller", "smalt ansigt", "lyst hår"] },
+        { "id": "sol5", "plads": 5, "billede": "sag4_soldat_5", "navn": "H. P. Lorenzen", "traek": ["kløft i hagen", "små ører", "lyst hår"] },
+        { "id": "sol6", "plads": 6, "billede": "sag4_soldat_6", "navn": "Andreas Schmidt", "traek": ["rundt ansigt", "mørkt overskæg", "mørkt hår"] }
+      ]
+    },
+    {
+      "id": "verlustliste_1917",
+      "type": "verlustliste",
+      "titel": "Preußische Verlustliste, december 1917 – Füsilier-Regiment Nr. 86 (uddrag)",
+      "kolonner": ["Grad", "Navn", "Hjemsted", "Status"],
+      "raekker": [
+        { "id": "vl1", "felter": ["Füs.", "Nis Petersen", "Ballum, Tondern", "leicht verwundet"] },
+        { "id": "vl2", "felter": ["Füs.", "Peter Hansen", "Hoyer, Tondern", "gefallen"] },
+        { "id": "vl3", "felter": ["Füs.", "Peter Asmus Hansen", "Ballum, Tondern", "vermißt"] },
+        { "id": "vl4", "felter": ["Gefr.", "Asmus Hansen", "Scherrebek, Hadersleben", "in Gefangenschaft"] }
+      ],
+      "oversaettelse": {
+        "leicht verwundet": "let såret",
+        "gefallen": "faldet",
+        "vermißt": "savnet",
+        "in Gefangenschaft": "i fangenskab",
+        "Füs.": "Füsilier (menig)",
+        "Gefr.": "Gefreiter (overkonstabel)"
+      }
+    },
+    {
+      "id": "standesamt_ballum_1897",
+      "type": "foedselsregister",
+      "titel": "Standesamt Ballum – Geburtsregister 1897 (uddrag, med dansk oversættelse)",
+      "raekker": [
+        { "id": "sb1", "tysk": "Nr. 11. Ballum, am 16. März 1897. Der Kätner Hans Peter Hansen zu Ballum zeigte an, dass von seiner Ehefrau Anna Kathrine geb. Asmussen am 14. März 1897 ein Knabe geboren worden sei, welcher die Vornamen Peter Asmus erhalten habe.", "dansk": "Nr. 11. Ballum, 16. marts 1897. Kådner Hans Peter Hansen af Ballum anmeldte, at hans hustru Anna Kathrine, født Asmussen, den 14. marts 1897 har født en dreng, som har fået fornavnene Peter Asmus." },
+        { "id": "sb2", "tysk": "Nr. 19. Ballum, am 2. Mai 1897. Der Arbeiter Peter Hansen zu Ballum-Deich zeigte an, dass von seiner Ehefrau Marie geb. Lorenzen am 30. April 1897 ein Knabe geboren worden sei, welcher die Vornamen Asmus Peter erhalten habe.", "dansk": "Nr. 19. Ballum, 2. maj 1897. Arbejder Peter Hansen af Ballum-Dige anmeldte, at hans hustru Marie, født Lorenzen, den 30. april 1897 har født en dreng, som har fået fornavnene Asmus Peter." },
+        { "id": "sb3", "tysk": "Nr. 4. Ballum, am 22. Januar 1896. Der Hufner Asmus Hansen zu Ballum zeigte an, dass von seiner Ehefrau Kirsten geb. Nissen am 19. Januar 1896 ein Knabe geboren worden sei, welcher den Vornamen Peter erhalten habe.", "dansk": "Nr. 4. Ballum, 22. januar 1896. Gårdmand Asmus Hansen af Ballum anmeldte, at hans hustru Kirsten, født Nissen, den 19. januar 1896 har født en dreng, som har fået fornavnet Peter." }
+      ]
+    }
+  ],
+  "trin": [
+    {
+      "id": "t1",
+      "type": "fotogenkendelse",
+      "reference": { "dokument": "foto_bryllup_1925", "person": "brudgom" },
+      "dokument": "foto_ballum_1916",
+      "spoergsmaal": "Sammenlign brudgommen fra 1925 med de seks unge soldater fra Ballum 1916. Hvem er han?",
+      "kandidater": ["sol1", "sol2", "sol3", "sol4", "sol5", "sol6"],
+      "loesning": "sol3",
+      "feedback_forkert": {
+        "sol1": "Kløft i hagen og store ører – men arret sidder over læben, ikke gennem øjenbrynet. Og håret er mørkt.",
+        "sol2": "Arret sidder i det højre øjenbryn. Brudgommens sidder i det venstre.",
+        "sol4": "Smalt ansigt og briller. Ingen kløft, intet ar.",
+        "sol5": "Kløft i hagen, men små ører og intet ar.",
+        "sol6": "Rundt ansigt og mørkt hår – ingen lighed."
+      },
+      "feedback_rigtig": "Kløften i hagen. De udstående ører. Og arret gennem venstre øjenbryn. Han har fået overskæg – men det er ham. Bagsiden af fotoet siger: Peter Asmus Hansen.",
+      "evne_note": "JP's Ansigtssans markerer kløft og ar. Hvis JP spiller, passer hullet i hans eget foto præcis til plads 3."
+    },
+    {
+      "id": "t2",
+      "type": "vaelg_raekke",
+      "dokument": "verlustliste_1917",
+      "spoergsmaal": "Hvad skete der med Peter Asmus Hansen fra Ballum i krigen? Find ham i den tyske tabsliste.",
+      "kandidater": ["vl1", "vl2", "vl3", "vl4"],
+      "loesning": "vl3",
+      "feedback_forkert": {
+        "vl1": "Det er Nis Petersen – manden på plads 1.",
+        "vl2": "Peter Hansen fra Hoyer. Forkert by, og han mangler mellemnavnet Asmus.",
+        "vl4": "Asmus Hansen fra Scherrebek – forkert by og forkert fornavn."
+      },
+      "feedback_rigtig": "»Vermißt« – savnet. Ikke faldet, ikke fanget. Bare væk. I efteråret 1917."
+    },
+    {
+      "id": "t3",
+      "type": "vaelg_raekke",
+      "dokument": "standesamt_ballum_1897",
+      "spoergsmaal": "Bekræft hans fødsel. Hvilken dreng fra Ballum er Peter Asmus Hansen?",
+      "kandidater": ["sb1", "sb2", "sb3"],
+      "loesning": "sb1",
+      "feedback_forkert": {
+        "sb2": "Asmus Peter – navnene står i omvendt rækkefølge. Det er en anden dreng.",
+        "sb3": "Han hedder kun Peter og er født i 1896."
+      },
+      "feedback_rigtig": "Peter Asmus, født 14. marts 1897 i Ballum. Kun syv uger ældre end den lille Jens Peder Iversen fra Vilslev – hvis navn han tog."
+    }
+  ],
+  "hints": [
+    "Kig efter træk, der ikke ændrer sig med alderen: hage, ører og ar.",
+    "Arret er nøglen. Hvilken side sidder det på hos brudgommen?",
+    "Plads 3 har kløft i hagen, udstående ører og ar gennem venstre øjenbryn.",
+    "I tabslisten: find den præcise kombination af navn og hjemsted – Peter Asmus Hansen, Ballum.",
+    "I fødselsregistret: Peter Asmus – i den rækkefølge – født 1897."
+  ],
+  "ordbog": ["Nordslesvig", "Füsilier", "Verlustliste", "Vermißt", "Lægd / lægdsrulle"],
+  "afsloering": {
+    "_note": "Afslutningsscene for kapitel 1. Stamtræet opdateres: på oldefars plads står nu »Peter Asmus Hansen (kaldet Jens Peder Iversen)«.",
+    "tekst": [
+      "Peter Asmus Hansen. Født i Ballum 1897, i det der dengang var Tyskland.",
+      "Indkaldt til den tyske hær. Meldt savnet i efteråret 1917.",
+      "Dukker op i Ribe under navnet på en dreng, der døde i 1899 – en dreng, han var næsten lige så gammel som.",
+      "Han gik over Kongeåen én gang. Og aldrig igen."
+    ],
+    "cliffhanger": "Men hvem hjalp ham over grænsen? Hvordan vidste han, at en lille dreng i Vilslev var død? Og hvem var »Mutter« – fik hun nogensinde at vide, at hendes søn levede?",
+    "naeste_kapitel": "Kapitel 2: Grænsen"
+  },
+  "morfar": {
+    "scene": "Fætteren sidder hos morfar med fotoet fra Ballum. Morfar ser længe på det. Så smiler han for første gang i hele kapitlet.",
+    "erindring": "Peter… Mor kaldte ham Peter én gang. Ved et uheld, tror jeg. Han blev så vred. Og bagefter græd han ude i haven, hvor han troede, ingen kunne se det. Jeg var syv år. Jeg har aldrig fortalt det til nogen.",
+    "notesblok": "Morfar: Mormor kaldte ham engang Peter. Han blev vred – og græd bagefter i haven."
+  },
+  "replikker": {
+    "mads": {
+      "start": { "dialekt": "P. A. H. Det står i æ ur. Det har det gjort hele tiden.", "rigsdansk": "P. A. H. Det står i uret. Det har det gjort hele tiden." },
+      "slut": { "dialekt": "Peter Asmus Hansen. Ka' a godt li'. Det er et ordentligt navn.", "rigsdansk": "Peter Asmus Hansen. Det kan jeg godt lide. Det er et ordentligt navn." }
+    },
+    "jp": {
+      "start": { "dialekt": "Ballum! Det er jo lige uden for Tønder. A har kørt forbi hundred gange, og så har oldefar vær' derfra?", "rigsdansk": "Ballum! Det er jo lige uden for Tønder. Jeg har kørt forbi hundrede gange, og så skulle oldefar være derfra?" },
+      "slut": { "dialekt": "Hullet i mit foto … det war ham. Nogen klipped' ham ud. Mon det war ham selv?", "rigsdansk": "Hullet i mit foto … det var ham. Nogen klippede ham ud. Mon det var ham selv?" }
+    },
+    "kasper": {
+      "start": { "dialekt": "Okay. Ny kolonne: »Rigtigt navn«. Og den er tom. Lad os fylde den.", "rigsdansk": "Okay. Ny kolonne: »Rigtigt navn«. Og den er tom. Lad os fylde den." },
+      "slut": { "dialekt": "Jaj skal lave hele arket om. Og det er det bedste, der er sket for mig i år.", "rigsdansk": "Jeg skal lave hele arket om. Og det er det bedste, der er sket for mig i år." }
+    },
+    "soeren": {
+      "start": { "dialekt": "Han prøvede at viske sit eget navn ud. Men blæk glemmer et så let som mennesker.", "rigsdansk": "Han prøvede at viske sit eget navn ud. Men blæk glemmer ikke så let som mennesker." },
+      "slut": { "dialekt": "Savnet. Det war han jo også. Bare et dér, hvor di ledte.", "rigsdansk": "Savnet. Det var han jo også. Bare ikke dér, hvor de ledte." }
+    },
+    "anders": {
+      "start": { "dialekt": "Ét regiment, én by, ét navn. Nu ska' vi bare ha' ansigtet te å pass'.", "rigsdansk": "Ét regiment, én by, ét navn. Nu skal vi bare have ansigtet til at passe." },
+      "slut": { "dialekt": "Han stak af fra en krig. Ved du hva? Det ka' a godt forstå.", "rigsdansk": "Han stak af fra en krig. Ved du hvad? Det kan jeg godt forstå." }
+    }
+  },
+  "oplaasninger": ["arkiv_tyske_kilder", "kontor_ballum_fotoet_paa_vaeggen", "kapitel_2"]
+}

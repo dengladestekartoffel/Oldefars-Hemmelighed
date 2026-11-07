@@ -1,0 +1,33 @@
+{
+  "_note": "Ordbog over gamle ord. 'sager' angiver, hvor ordet optræder første gang.",
+  "ord": [
+    { "ord": "Aftægt", "forklaring": "Aftale om, at de gamle på en gård fik bolig, mad og brænde af den nye ejer eller fæster resten af livet, mod at de overdrog gården.", "sager": ["sag3"] },
+    { "ord": "Aftægtskone / aftægtsmand", "forklaring": "En person, der lever på aftægt.", "sager": ["sag1"] },
+    { "ord": "Arbejdsmand", "forklaring": "Ufaglært arbejder, ofte i byen. Senere tids ord for daglejer.", "sager": ["sag3"] },
+    { "ord": "Daglejer", "forklaring": "Arbejder, der blev hyret og betalt for én dag ad gangen, typisk på gårdene.", "sager": ["sag1"] },
+    { "ord": "Domsogn", "forklaring": "Sognet omkring en domkirke, fx Ribe Domsogn.", "sager": ["sag3"] },
+    { "ord": "Enke / enkemand", "forklaring": "Kvinde / mand, hvis ægtefælle er død.", "sager": ["sag1"] },
+    { "ord": "Fæster", "forklaring": "Bonde, der ikke ejede sin gård, men havde den i fæste (lejede den for livstid) af en godsejer eller kongen mod afgift og arbejde.", "sager": ["sag3"] },
+    { "ord": "Fæsteprotokol", "forklaring": "Godsets bog over, hvem der fik gårde og huse i fæste, hvornår og på hvilke vilkår.", "sager": ["sag3"] },
+    { "ord": "Folketælling", "forklaring": "Optælling af alle personer i hver husstand med alder, stilling, erhverv og fødested. I Danmark bl.a. 1787, 1801, 1834, 1840, 1845, 1850, 1855, 1860, 1870, 1880 og frem.", "sager": ["sag1"] },
+    { "ord": "Füsilier", "forklaring": "Tysk betegnelse for menig infanterist i bestemte regimenter, fx Füsilier-Regiment Nr. 86, hvor mange sønderjyder tjente under 1. verdenskrig.", "sager": ["sag4"] },
+    { "ord": "Gaardmand", "forklaring": "Bonde med en gård af en vis størrelse (mere end et husmandssted).", "sager": ["sag1"] },
+    { "ord": "Gjørding", "forklaring": "Ældre stavemåde for Gørding sogn ved Ribe-egnen. Stednavne staves tit forskelligt i gamle kilder.", "sager": ["sag2"] },
+    { "ord": "Hjemmedøbt", "forklaring": "Et barn, der var døbt hjemme (ofte af jordemoderen), fordi det var svagt. Dåben blev senere bekræftet i kirken.", "sager": ["sag3"] },
+    { "ord": "Husholderske", "forklaring": "Kvinde, der styrede husholdningen for en anden, fx en enkemand.", "sager": ["sag1"] },
+    { "ord": "Husmand", "forklaring": "Person med et lille hus og lidt eller ingen jord. Arbejdede ofte også som daglejer.", "sager": ["sag1"] },
+    { "ord": "Introduceret", "forklaring": "En nybagt mor blev 'introduceret' i kirken nogle uger efter fødslen. Står tit i kirkebogen ved barnets dåb.", "sager": ["sag1"] },
+    { "ord": "Kirkebog", "forklaring": "Præstens bog over fødte/døbte, konfirmerede, viede og døde i sognet. Den vigtigste kilde i slægtsforskning før ca. 1900.", "sager": ["sag1"] },
+    { "ord": "Kontrakt (udvandring)", "forklaring": "Billetkontrakt med et udvandringsagentur. Personer på samme kontrakt rejste sammen, ofte familie.", "sager": ["sag2"] },
+    { "ord": "Lægd / lægdsrulle", "forklaring": "Lægdsrullerne registrerede alle drenge og mænd af bondestand, der kunne udskrives til militæret – fra fødslen. Gode til at følge mænd fra sted til sted.", "sager": ["sag4"] },
+    { "ord": "Nordslesvig", "forklaring": "Den nordlige del af hertugdømmet Slesvig. Tysk fra 1864 til 1920, hvor området blev genforenet med Danmark som Sønderjylland.", "sager": ["sag4"] },
+    { "ord": "Patronym", "forklaring": "Efternavn dannet af faderens fornavn: Niels' søn hedder Nielsen, Niels' datter hedder Nielsdatter. Derfor skifter efternavnet fra generation til generation – og to brødre har altid samme efternavn.", "sager": ["sag1", "sag2"] },
+    { "ord": "Skifte", "forklaring": "Opgørelse og fordeling af en afdød persons bo. Skifteprotokollen nævner arvingerne – ofte med alder – og er derfor guld værd.", "sager": ["sag3"] },
+    { "ord": "Smedesvend", "forklaring": "Udlært smed, der arbejder for en mester.", "sager": ["sag2"] },
+    { "ord": "Tjenestekarl / tjenestepige", "forklaring": "Ugift ung person i tjeneste på en gård, hvor de boede og arbejdede.", "sager": ["sag1"] },
+    { "ord": "Udvandrerprotokol", "forklaring": "Københavns Politis protokoller over udvandrere, der rejste på kontrakt med et agentur fra 1869 og frem. Angiver navn, stilling, sidste opholdssted, alder og bestemmelsessted.", "sager": ["sag2"] },
+    { "ord": "Uægte", "forklaring": "Gammel betegnelse for et barn født uden for ægteskab.", "sager": [] },
+    { "ord": "Vermißt", "forklaring": "Tysk for 'savnet'. Brugt i de tyske tabslister om soldater, hvis skæbne var ukendt – faldne, fangne eller deserterede.", "sager": ["sag4"] },
+    { "ord": "Verlustliste", "forklaring": "Tysk tabsliste fra 1. verdenskrig. Angiver navn, hjemsted og om soldaten var faldet (gefallen), såret (verwundet), fanget (gefangen) eller savnet (vermißt).", "sager": ["sag4"] }
+  ]
+}

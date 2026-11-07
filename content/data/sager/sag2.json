@@ -1,0 +1,125 @@
+{
+  "id": "sag2",
+  "kapitel": 1,
+  "nummer": 2,
+  "titel": "Smeden fra Gørding",
+  "undertitel": "Samme navn, flere personer",
+  "periode": "1844–1869",
+  "mekanikker": ["udelukkelse", "krydstjek"],
+  "kunde": {
+    "navn": "Linda Petersen",
+    "alder": 58,
+    "fra": "Omaha, Nebraska (USA)",
+    "portraet": "kunde_linda",
+    "intro": "Hello – undskyld, mit dansk er lidt rusten! Min tip-tipoldefar hed Christen Nielsen. I familiebiblen står, at han var født i Danmark i 1844, var smed og kom til Amerika sammen med sin bror Laurids. De slog sig ned i Omaha. Men da jeg søgte i jeres udvandrerprotokoller, fik jeg fem Christen Nielsen! Hvem af dem er min?",
+    "kundens_noter": [
+      "Christen Nielsen, født 1844 i Danmark",
+      "Smed",
+      "Rejste sammen med sin bror Laurids",
+      "Slog sig ned i Omaha, Nebraska",
+      "Nekrolog 1912: »born in Gørding parish, Denmark«"
+    ]
+  },
+  "opgave": "Udeluk de forkerte kandidater i udvandrerprotokollen, til kun Lindas forfader er tilbage. Bekræft derefter i Gørding kirkebog.",
+  "dokumenter": [
+    {
+      "id": "udv_1869",
+      "type": "udvandrerprotokol",
+      "titel": "Københavns Politis Udvandrerprotokol 1869 (uddrag)",
+      "kolonner": ["Kontrakt nr.", "Navn", "Stilling", "Sidste opholdssted", "Alder", "Bestemmelsessted", "Reg.-dato"],
+      "raekker": [
+        { "id": "u1", "felter": ["4512", "Christen Nielsen", "Smedesvend", "Gjørding", "25", "Omaha", "14.4.1869"] },
+        { "id": "u1b", "felter": ["4512", "Laurids Nielsen", "Karl", "Gjørding", "21", "Omaha", "14.4.1869"] },
+        { "id": "u2", "felter": ["4688", "Kristen Nielsen", "Smed", "Bramminge", "25", "Omaha", "28.4.1869"] },
+        { "id": "u3", "felter": ["5031", "Christen Nielsen", "Smedesvend", "Gjørding", "38", "New York", "12.5.1869"] },
+        { "id": "u4", "felter": ["5207", "Christen Nielsen Kjær", "Gaardmandssøn", "Gjørding", "24", "Omaha", "26.5.1869"] },
+        { "id": "u4b", "felter": ["5207", "Ane Nielsen", "Pige", "Gjørding", "20", "Omaha", "26.5.1869"] },
+        { "id": "u5", "felter": ["5590", "Christen Nielsen", "Smedesvend", "Vilslev", "25", "Chicago", "9.6.1869"] },
+        { "id": "u5b", "felter": ["5590", "Laurids Christensen", "Karl", "Vilslev", "22", "Chicago", "9.6.1869"] }
+      ]
+    },
+    {
+      "id": "kb_goerding_1844",
+      "type": "kirkebog",
+      "titel": "Gørding Sogns Kirkebog – Fødte Mandkøn 1844 (uddrag)",
+      "kolonner": ["Nr.", "Fødselsdag", "Daabsdag", "Barnets Navn", "Forældrenes Navne, Stand og Bopæl", "Faddere"],
+      "raekker": [
+        { "id": "kg_1844_03", "felter": ["3", "17. Januar 1844", "11. Februar", "Christen", "Smed Niels Christensen og Hustru Karen Lauridsdatter af Gjørding By", "Smed Laurids Hansen; Gmd. Christen Madsen; Pigen Mette Nielsdatter"] },
+        { "id": "kg_1844_08", "felter": ["8", "2. Marts 1844", "24. Marts", "Christen", "Gaardmand Niels Christensen Kjær og Hustru Ane Pedersdatter af Kjærgaard", "Gmd. Peder Kjær; Ungkarl Hans Nielsen"] }
+      ]
+    }
+  ],
+  "trin": [
+    {
+      "id": "t1",
+      "type": "udelukkelse",
+      "spoergsmaal": "Hvilken Christen Nielsen er Lindas forfader? Streg de forkerte ud.",
+      "kandidater": [
+        { "id": "u1", "kort": "Christen Nielsen, smedesvend, Gjørding, 25 år → Omaha. Kontrakt 4512." },
+        { "id": "u2", "kort": "Kristen Nielsen, smed, Bramminge, 25 år → Omaha. Kontrakt 4688." },
+        { "id": "u3", "kort": "Christen Nielsen, smedesvend, Gjørding, 38 år → New York. Kontrakt 5031." },
+        { "id": "u4", "kort": "Christen Nielsen Kjær, gaardmandssøn, Gjørding, 24 år → Omaha. Kontrakt 5207." },
+        { "id": "u5", "kort": "Christen Nielsen, smedesvend, Vilslev, 25 år → Chicago. Kontrakt 5590." }
+      ],
+      "loesning": "u1",
+      "udelukkelsesgrunde": {
+        "u2": { "ledetraad": "Fødested", "tekst": "Han kommer fra Bramminge og rejser alene – ingen bror på kontrakten." },
+        "u3": { "ledetraad": "Alder", "tekst": "38 år i 1869 betyder født ca. 1831 – ikke 1844." },
+        "u4": { "ledetraad": "Rejsefølge og erhverv", "tekst": "Gaardmandssøn, ikke smed – og han rejser med en pige, Ane, ikke med broderen Laurids." },
+        "u5": { "ledetraad": "Patronym", "tekst": "Han rejser med en Laurids – men Laurids Christensen er søn af en Christen, ikke af en Niels. De kan ikke være brødre. Og de skal til Chicago." }
+      },
+      "feedback_rigtig": "Christen Nielsen, smedesvend fra Gjørding, 25 år, rejser på samme kontrakt som Laurids Nielsen – begge Nielsen, begge sønner af en Niels. Og de skal til Omaha."
+    },
+    {
+      "id": "t2",
+      "type": "vaelg_raekke",
+      "dokument": "kb_goerding_1844",
+      "spoergsmaal": "Bekræft: hvilken Christen, født 1844 i Gørding, er hans dåb?",
+      "kandidater": ["kg_1844_03", "kg_1844_08"],
+      "loesning": "kg_1844_03",
+      "feedback_forkert": {
+        "kg_1844_08": "Det er gaardmandssønnen Christen Nielsen Kjær – ham udelukkede du lige."
+      },
+      "feedback_rigtig": "Søn af smed Niels Christensen – og en af fadderne er smed Laurids Hansen. Måske er lillebror Laurids opkaldt efter ham?"
+    }
+  ],
+  "hints": [
+    "Lindas forfader er født i 1844. Hvor gammel er han så i 1869?",
+    "Folk på samme kontraktnummer rejste sammen. Kig efter, hvem der rejser med en Laurids.",
+    "To brødre har samme patronym: begge er sønner af samme far. Laurids Christensen kan ikke være bror til en Christen Nielsen.",
+    "Kontrakt 4512: Christen og Laurids Nielsen fra Gjørding til Omaha."
+  ],
+  "ordbog": ["Udvandrerprotokol", "Kontrakt (udvandring)", "Smedesvend", "Gjørding", "Patronym"],
+  "afslutning": {
+    "kunde": "Oh my God – Gørding! Og han var søn af en smed! Jeg flyver til Danmark til sommer og besøger kirken. Thank you, thank you!",
+    "beloenning": { "billede": "sag2_christen_nielsen_omaha", "tekst": "Linda sender et foto af Christen Nielsen foran sin smedje i Omaha, ca. 1885." }
+  },
+  "morfar": {
+    "scene": "Fætteren besøger morfar og fortæller om brødrene, der rejste ud. Morfar sidder længe med kaffekoppen.",
+    "erindring": "Far talte i søvne. Mor sagde, det lød som tysk. Jeg troede, hun drillede. Men en nat hørte jeg det selv … »Mutter«, sagde han. Det er da tysk, ikke?",
+    "notesblok": "Morfar: Oldefar talte tysk i søvne. Sagde »Mutter«."
+  },
+  "replikker": {
+    "mads": {
+      "start": { "dialekt": "Fem mand med samme navn. Det ka' vi godt sortere i.", "rigsdansk": "Fem mænd med samme navn. Det kan vi godt sortere i." },
+      "slut": { "dialekt": "Tysk i søvne. Og et ur med tysk skrift i. A tror it på tilfælde.", "rigsdansk": "Tysk i søvne. Og et ur med tysk skrift i. Jeg tror ikke på tilfælde." }
+    },
+    "jp": {
+      "start": { "dialekt": "Ka' do forestil dæ, Linda kom hele vejen fra Amerika? Så ska' vi sgu da finde hinner smed!", "rigsdansk": "Kan du forestille dig, Linda kom hele vejen fra Amerika? Så skal vi sandelig finde hendes smed!" },
+      "slut": { "dialekt": "Tysk? Hjemme i Tønder snakker mormor jo også lidt tysk. Men oldefar var da fra Vilslev… var han?", "rigsdansk": "Tysk? Hjemme i Tønder snakker mormor jo også lidt tysk. Men oldefar var da fra Vilslev… var han?" }
+    },
+    "kasper": {
+      "start": { "dialekt": "Fem kandidater, fem rækker. Vi filtrerer på alder, sted og rejsefølge. Easy.", "rigsdansk": "Fem kandidater, fem rækker. Vi filtrerer på alder, sted og rejsefølge. Nemt." },
+      "slut": { "dialekt": "Tysk i søvne… Det passer ik' med Vilslev. Jaj tilføjer et spørgsmålstegn i arket.", "rigsdansk": "Tysk i søvne… Det passer ikke med Vilslev. Jeg tilføjer et spørgsmålstegn i arket." }
+    },
+    "soeren": {
+      "start": { "dialekt": "To brødre over et hav. Mon de nogensinde så deres mor igjen?", "rigsdansk": "To brødre over et hav. Mon de nogensinde så deres mor igen?" },
+      "slut": { "dialekt": "Mutter. Ét ord. Men det er et tungt ord at sige i søvne.", "rigsdansk": "Mutter. Ét ord. Men det er et tungt ord at sige i søvne." }
+    },
+    "anders": {
+      "start": { "dialekt": "Fem gutter, én rigtig. Lad mig lig' streg' den første ud – maven siger noget.", "rigsdansk": "Fem gutter, én rigtig. Lad mig lige strege den første ud – maven siger noget." },
+      "slut": { "dialekt": "Tysk? Og a har en side fra en tysk soldaterbog i skuffen. Hva så?", "rigsdansk": "Tysk? Og jeg har en side fra en tysk soldaterbog i skuffen. Hvad så?" }
+    }
+  },
+  "oplaasninger": ["arkiv_udvandrerprotokoller", "vaerktoej_lup", "kontor_verdenskort"]
+}

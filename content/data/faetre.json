@@ -1,0 +1,166 @@
+{
+  "_note": "De fem fætre. Al dialog er skrevet på dialekt og BØR læses igennem af en med dialekten som modersmål – især sønderjysk og vendelbomål. Felterne 'rigsdansk' er til tekstning/oversættelse og kan vises med et tryk.",
+  "faetre": [
+    {
+      "id": "mads",
+      "navn": "Mads",
+      "alder": 23,
+      "by": "Thyborøn",
+      "dialekt": "vestjysk",
+      "mor": "Hanne",
+      "personlighed": "Fåmælt, tør humor, kommer af en fiskerfamilie. Siger mindst muligt – men rammer plet.",
+      "arvelige_traek": ["udstående ører"],
+      "evne": {
+        "id": "kirkebogsoeje",
+        "navn": "Kirkebogsøje",
+        "mekanik": "krydstjek",
+        "beskrivelse": "Felter i et dokument, der matcher noget i notesblokken (navn, år, sted), lyser svagt op."
+      },
+      "arvestykke": {
+        "id": "lommeur",
+        "navn": "Oldefars lommeur",
+        "beskrivelse": "Et slidt sølvlommeur. Inde i låget er indgraveret: »P. A. H. – Zur Erinnerung an die Konfirmation 1911«.",
+        "billede": "arv_lommeur",
+        "spor": "Initialerne P.A.H. og en tysk konfirmationsgave – men oldefar hed jo Jens Peder Iversen?"
+      },
+      "replikker": {
+        "valg": { "dialekt": "Mads. A snakker it så møj. Men a ser en hel del.", "rigsdansk": "Mads. Jeg snakker ikke så meget. Men jeg ser en hel del." },
+        "fejl": [
+          { "dialekt": "Næh. Den hold it.", "rigsdansk": "Nej. Den holder ikke." },
+          { "dialekt": "Det war it ham. Prøv igjen.", "rigsdansk": "Det var ikke ham. Prøv igen." }
+        ],
+        "hint": { "dialekt": "Kik lige en gang til, du.", "rigsdansk": "Kig lige en gang til." },
+        "loest": { "dialekt": "Dæ sejl vi.", "rigsdansk": "Så sejler vi." }
+      }
+    },
+    {
+      "id": "jp",
+      "navn": "Jens Peter",
+      "kaldenavn": "JP",
+      "alder": 24,
+      "by": "Tønder",
+      "dialekt": "sønderjysk",
+      "mor": "Birgit",
+      "personlighed": "Snakkesalig og charmerende. Kender alle – og alle kender ham.",
+      "arvelige_traek": ["kløft i hagen"],
+      "evne": {
+        "id": "ansigtssans",
+        "navn": "Ansigtssans",
+        "mekanik": "fotogenkendelse",
+        "beskrivelse": "Når to fotos sammenlignes, markeres op til to fælles træk med en lille cirkel."
+      },
+      "arvestykke": {
+        "id": "afklippet_foto",
+        "navn": "Det afklippede foto",
+        "beskrivelse": "Et brunligt foto af en gruppe unge mænd i uniform. Ét ansigt er omhyggeligt klippet ud. På bagsiden står med blyant: »Ballum 1916«.",
+        "billede": "arv_afklippet_foto",
+        "spor": "Hvem klippede ansigtet ud – og hvorfor står der Ballum, der lå i Tyskland i 1916?"
+      },
+      "replikker": {
+        "valg": { "dialekt": "Jens Peter – men saj nu bare JP. A kjende hal' Tønder, og den anden hal' kjende mæ.", "rigsdansk": "Jens Peter – men sig nu bare JP. Jeg kender halvdelen af Tønder, og den anden halvdel kender mig." },
+        "fejl": [
+          { "dialekt": "Nej nej, dæ ve a et. Den ska vi lig' kig' på igjen.", "rigsdansk": "Nej nej, det tror jeg ikke på. Den skal vi lige kigge på igen." },
+          { "dialekt": "Hov, de wa' en anden fyr. Hyggelig nok, men forkjet.", "rigsdansk": "Hov, det var en anden fyr. Hyggelig nok, men forkert." }
+        ],
+        "hint": { "dialekt": "Skal a gi' dæ et lille puf?", "rigsdansk": "Skal jeg give dig et lille puf?" },
+        "loest": { "dialekt": "Så ka' do da se! Den sag ka' vi lig' så godt sæt' op på væggen.", "rigsdansk": "Så kan du da se! Den sag kan vi lige så godt hænge op på væggen." }
+      }
+    },
+    {
+      "id": "kasper",
+      "navn": "Kasper",
+      "alder": 22,
+      "by": "Aarhus",
+      "dialekt": "østjysk (aarhusiansk)",
+      "mor": "Lone",
+      "personlighed": "Ivrig nørd med regneark over alt. Taler hurtigt, når han er begejstret – og det er han tit.",
+      "arvelige_traek": [],
+      "evne": {
+        "id": "stamtraesblik",
+        "navn": "Stamtræsblik",
+        "mekanik": "stamtrae",
+        "beskrivelse": "Tomme pladser i stamtræet viser et ikon for den kildetype, der skal til (fx kirkebog, folketælling, skifte)."
+      },
+      "arvestykke": {
+        "id": "postkort",
+        "navn": "Postkortet fra 1918",
+        "beskrivelse": "Et postkort med et motiv af Ribe Domkirke. Aldrig sendt. Adressen er streget ud, men »Ballum« kan stadig læses. Underskrevet kun: »Din Peter«.",
+        "billede": "arv_postkort",
+        "spor": "Hvem er Peter? Og hvem skulle kortet til i Ballum?"
+      },
+      "replikker": {
+        "valg": { "dialekt": "Kasper, hej! Jaj har altså lavet et regneark over hele familien. Altså, næsten. Ik'?", "rigsdansk": "Kasper, hej! Jeg har altså lavet et regneark over hele familien. Altså, næsten. Ikke?" },
+        "fejl": [
+          { "dialekt": "Nåeh nej, den passer ik' i mit ark. Ét felt er forkert.", "rigsdansk": "Nå nej, den passer ikke i mit ark. Ét felt er forkert." },
+          { "dialekt": "Okay, data siger nej. Vi prøver igen, ik'?", "rigsdansk": "Okay, data siger nej. Vi prøver igen, ikke?" }
+        ],
+        "hint": { "dialekt": "Vent, vent – lad os lige tjekke kilderne én gang til.", "rigsdansk": "Vent, vent – lad os lige tjekke kilderne én gang til." },
+        "loest": { "dialekt": "JA! Grønt felt hele vejen ned! Det er sgu smukt.", "rigsdansk": "JA! Grønt felt hele vejen ned! Det er altså smukt." }
+      }
+    },
+    {
+      "id": "soeren",
+      "navn": "Søren",
+      "alder": 25,
+      "by": "Vendsyssel",
+      "dialekt": "nordjysk (vendelbomål)",
+      "mor": "Mette",
+      "personlighed": "Drømmer og historiefortæller. Hans bedstefar på farens side lærte ham gamle ord, og han elsker dem.",
+      "arvelige_traek": ["lyst hår"],
+      "evne": {
+        "id": "ordkloegt",
+        "navn": "Ordkløgt",
+        "mekanik": "alle",
+        "beskrivelse": "Gamle ord og forkortelser i dokumenter er understreget og kan trykkes på for en forklaring fra ordbogen – uden at åbne den."
+      },
+      "arvestykke": {
+        "id": "salmebog",
+        "navn": "Salmebogen",
+        "beskrivelse": "En lille, sort salmebog på tysk og dansk. På forsatsbladet står med pæn skrift: »Peter Asmus Hansen, Ballum, konfirmeret 1911«. Nogen har forsøgt at viske det ud.",
+        "billede": "arv_salmebog",
+        "spor": "Et helt navn. Men hvorfor lå den blandt oldefars ting?"
+      },
+      "replikker": {
+        "valg": { "dialekt": "Søren. A ka' godt li' gammel ord. De har en lugt af støv og hemmeligheder, hwa?", "rigsdansk": "Søren. Jeg kan godt lide gamle ord. De har en lugt af støv og hemmeligheder, ikke?" },
+        "fejl": [
+          { "dialekt": "Næj, den person hører te en anden historie.", "rigsdansk": "Nej, den person hører til en anden historie." },
+          { "dialekt": "Hwa så – den war et rigtig. Vi tæjer den igjen.", "rigsdansk": "Hvad så – den var ikke rigtig. Vi tager den igen." }
+        ],
+        "hint": { "dialekt": "Læs lige ordene langsomt. Di gammel skrev, som di mente.", "rigsdansk": "Læs lige ordene langsomt. De gamle skrev, som de mente." },
+        "loest": { "dialekt": "Dær ha' vi ham. Nu ka' han endelig få lov å blyw husket.", "rigsdansk": "Der har vi ham. Nu kan han endelig få lov at blive husket." }
+      }
+    },
+    {
+      "id": "anders",
+      "navn": "Anders",
+      "alder": 21,
+      "by": "Herning",
+      "dialekt": "midtjysk",
+      "mor": "Susanne",
+      "personlighed": "Praktisk sælgertype, altid i gang. Stoler på maven – og maven har tit ret.",
+      "arvelige_traek": ["udstående ører", "kløft i hagen"],
+      "evne": {
+        "id": "mavefornemmelse",
+        "navn": "Mavefornemmelse",
+        "mekanik": "udelukkelse",
+        "beskrivelse": "Én gang pr. sag kan Anders strege en forkert kandidat ud med det samme. Grunden vises bagefter."
+      },
+      "arvestykke": {
+        "id": "soldaterbog",
+        "navn": "Siden fra soldaterbogen",
+        "beskrivelse": "En løs, gulnet side fra en tysk Militärpass. Det meste er revet af, men der står: »Hansen, Peter Asm.… Füs.-Regt. Nr. 86 … Ballum«.",
+        "billede": "arv_soldaterbog",
+        "spor": "Et tysk regiment. Hvorfor havde en mand fra Ribe-egnen den?"
+      },
+      "replikker": {
+        "valg": { "dialekt": "Anders! A har it tid te å sid' stille, så lad os kom' i gang, ik'?", "rigsdansk": "Anders! Jeg har ikke tid til at sidde stille, så lad os komme i gang, ikke?" },
+        "fejl": [
+          { "dialekt": "Nå, det wa' så it ham. Videre!", "rigsdansk": "Nå, det var så ikke ham. Videre!" },
+          { "dialekt": "Hva så? Maven sagde nej, og maven har ret.", "rigsdansk": "Hvad så? Maven sagde nej, og maven har ret." }
+        ],
+        "hint": { "dialekt": "Ska' a lig' gi' dæ et vink?", "rigsdansk": "Skal jeg lige give dig et vink?" },
+        "loest": { "dialekt": "Så er den i hus! Hva så – næste kunde?", "rigsdansk": "Så er den i hus! Hvad så – næste kunde?" }
+      }
+    }
+  ]
+}

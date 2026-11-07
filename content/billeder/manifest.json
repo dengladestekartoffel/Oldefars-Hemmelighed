@@ -1,0 +1,586 @@
+{
+  "_note": "Tegneopgaveliste til kapitel 1. Al grafik tegnes af Claude som SVG i koden. 'beskrivelse' er motivet (skrevet på engelsk), 'tags'/'traek' skal kunne ses på tegningen, og 'reference' angiver motiver, personen skal ligne. 'stil' og 'format' er retningslinjer. En fil <id>.png/.svg i denne mappe overstyrer den kodetegnede version.",
+  "stil": {
+    "tegning": "Warm hand-drawn European comic-book illustration, clean confident ink outlines, flat soft colors with a subtle paper texture, friendly expressive faces, gentle humor. No text, no letters, no logos, no watermark.",
+    "foto": "Warm hand-drawn European comic-book illustration with clean ink outlines, styled as an antique photograph: sepia and brown tones, slightly faded, soft vignette, worn rounded paper corners. Still clearly a drawing, not photorealistic. No text, no letters, no watermark."
+  },
+  "format": {
+    "portraet": "Square 1:1 image, head-and-shoulders portrait, centered, plain softly colored background.",
+    "genstand": "Square 1:1 image, a single object centered on an old wooden desk, seen slightly from above.",
+    "baggrund": "Vertical 9:16 image for a mobile phone screen, wide scene with empty space in the lower third for game interface.",
+    "gruppe": "Horizontal 3:2 image."
+  },
+  "billeder": [
+    {
+      "id": "oldefar_reference",
+      "kategori": "karakter",
+      "stil": "tegning",
+      "format": "gruppe",
+      "reference": [],
+      "tags": {
+        "person": "oldefar",
+        "aar": 1916,
+        "alder": 19,
+        "koen": "mand",
+        "traek": [
+          "kløft i hagen",
+          "udstående ører",
+          "lyst hår",
+          "ar gennem venstre øjenbryn"
+        ]
+      },
+      "beskrivelse": "Character reference sheet of one young Danish man, 19 years old, around 1916. Shown twice side by side: facing front and three-quarter view. Key features that must be clearly visible: a distinct cleft chin, noticeably protruding ears, short light-blond hair, and a thin pale scar cutting vertically through his LEFT eyebrow (that is, on the right side of the image as we look at him). Clean-shaven, serious but gentle eyes, plain collarless shirt. Neutral light background."
+    },
+    {
+      "id": "mads",
+      "kategori": "karakter",
+      "stil": "tegning",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "mads",
+        "alder": 23,
+        "koen": "mand",
+        "traek": [
+          "udstående ører"
+        ]
+      },
+      "beskrivelse": "A 23-year-old young man from a fishing town on the Danish west coast. Weathered, calm face, short dark-blond hair tousled by wind, noticeably protruding ears, a dry half-smile. Wears a navy knitted fisherman's sweater. Background: soft grey-blue sea sky."
+    },
+    {
+      "id": "jp",
+      "kategori": "karakter",
+      "stil": "tegning",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "jp",
+        "alder": 24,
+        "koen": "mand",
+        "traek": [
+          "kløft i hagen"
+        ]
+      },
+      "beskrivelse": "A 24-year-old charming, talkative young man from a small Danish border town. Big open grin, sparkling eyes, a clear cleft chin, wavy brown hair. Wears a casual flannel shirt over a t-shirt. Background: warm soft yellow."
+    },
+    {
+      "id": "kasper",
+      "kategori": "karakter",
+      "stil": "tegning",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "kasper",
+        "alder": 22,
+        "koen": "mand",
+        "traek": []
+      },
+      "beskrivelse": "A 22-year-old enthusiastic nerdy young man from a Danish city. Rectangular glasses, messy dark hair, eager wide eyes, slightly excited expression as if about to explain something. Wears a hoodie with a pen clipped to the collar. Background: soft mint green."
+    },
+    {
+      "id": "soeren",
+      "kategori": "karakter",
+      "stil": "tegning",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "soeren",
+        "alder": 25,
+        "koen": "mand",
+        "traek": [
+          "lyst hår"
+        ]
+      },
+      "beskrivelse": "A 25-year-old dreamy storyteller from rural North Jutland. Longish light-blond hair, short beard, thoughtful gentle gaze looking slightly away, a faint smile. Wears a worn corduroy jacket. Background: soft dusky lavender."
+    },
+    {
+      "id": "anders",
+      "kategori": "karakter",
+      "stil": "tegning",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "anders",
+        "alder": 21,
+        "koen": "mand",
+        "traek": [
+          "udstående ører",
+          "kløft i hagen"
+        ]
+      },
+      "beskrivelse": "A 21-year-old energetic, practical young salesman type from mid-Jutland. Short neat hair, confident grin, protruding ears and a cleft chin, giving a thumbs-up. Wears a quilted vest over a polo shirt. Background: soft orange."
+    },
+    {
+      "id": "morfar",
+      "kategori": "karakter",
+      "stil": "tegning",
+      "format": "portraet",
+      "reference": [
+        "oldefar_reference"
+      ],
+      "tags": {
+        "person": "morfar",
+        "alder": 81,
+        "koen": "mand",
+        "traek": [
+          "kløft i hagen",
+          "udstående ører"
+        ]
+      },
+      "beskrivelse": "An 81-year-old kind Danish grandfather, slightly forgetful and wistful. Thin white hair, deep smile lines, a cleft chin and protruding ears inherited from his father (see reference image – family resemblance, but he has NO scar). Wears a grey cardigan over a checked shirt and holds a coffee cup. Background: warm soft beige living room blur."
+    },
+    {
+      "id": "oldefar_bryllup_1925",
+      "kategori": "sag3_sag4",
+      "stil": "foto",
+      "format": "gruppe",
+      "reference": [
+        "oldefar_reference"
+      ],
+      "tags": {
+        "person": "oldefar",
+        "aar": 1925,
+        "alder": 28,
+        "koen": "mand",
+        "traek": [
+          "kløft i hagen",
+          "udstående ører",
+          "lyst hår",
+          "ar gennem venstre øjenbryn",
+          "overskæg"
+        ]
+      },
+      "beskrivelse": "Formal Danish wedding photograph from 1925. The groom is the same man as in the reference image, now 28: same cleft chin, protruding ears, light-blond hair and thin scar through his LEFT eyebrow (right side of the image as we look at him), now with a small neat moustache. Dark suit, serious expression. The bride Karen Marie, 25, with a gentle smile, light dress and veil, holding a small bouquet. Studio backdrop with a painted column."
+    },
+    {
+      "id": "oldefar_1945",
+      "kategori": "rammehistorie",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [
+        "oldefar_reference"
+      ],
+      "tags": {
+        "person": "oldefar",
+        "aar": 1945,
+        "alder": 48,
+        "koen": "mand",
+        "traek": [
+          "kløft i hagen",
+          "udstående ører",
+          "ar gennem venstre øjenbryn",
+          "overskæg"
+        ]
+      },
+      "beskrivelse": "Photograph from 1945 of the same man as in the reference image, now 48: greying blond hair, moustache, cleft chin, protruding ears and the thin scar through his LEFT eyebrow. He carefully holds a newborn baby wrapped in a blanket, with a tender but sad expression."
+    },
+    {
+      "id": "karen_marie_portraet",
+      "kategori": "rammehistorie",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "karen_marie",
+        "aar": 1925,
+        "alder": 25,
+        "koen": "kvinde"
+      },
+      "beskrivelse": "Small portrait photograph of a young Danish woman around 1925, about 25 years old. Hair in a low bun, gentle shy smile, high-collared blouse with a small brooch. The photo looks well-handled, kept in a drawer for many years."
+    },
+    {
+      "id": "kunde_bodil",
+      "kategori": "kunde",
+      "stil": "tegning",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "bodil",
+        "alder": 71,
+        "koen": "kvinde"
+      },
+      "beskrivelse": "A cheerful 71-year-old Danish woman from Esbjerg. Short curly grey hair, round glasses on a chain, warm excited smile. Wears a colorful knitted cardigan and holds a folder of family papers. Background: soft pink."
+    },
+    {
+      "id": "kunde_linda",
+      "kategori": "kunde",
+      "stil": "tegning",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "linda",
+        "alder": 58,
+        "koen": "kvinde"
+      },
+      "beskrivelse": "A friendly 58-year-old American woman from Nebraska of Danish descent. Shoulder-length blonde hair, big enthusiastic smile, denim jacket, a small Danish flag pin. Holds an old family bible. Background: soft sky blue."
+    },
+    {
+      "id": "kunde_karl_erik",
+      "kategori": "kunde",
+      "stil": "tegning",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "karl_erik",
+        "alder": 76,
+        "koen": "mand"
+      },
+      "beskrivelse": "A 76-year-old retired Danish schoolteacher. Neat white beard, reading glasses pushed up on his forehead, tweed jacket with elbow patches, slightly formal but kind expression. Holds a cardboard box of old documents. Background: soft olive green."
+    },
+    {
+      "id": "sag1_ane_kirstine_1895",
+      "kategori": "sag1",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "ane_kirstine",
+        "aar": 1895,
+        "alder": 40,
+        "koen": "kvinde"
+      },
+      "beskrivelse": "Rural Danish woman around 1895, about 40 years old. Hair parted in the middle under a dark headscarf, strong hard-working hands folded, calm proud expression. Dark simple dress with an apron."
+    },
+    {
+      "id": "sag2_christen_nielsen_omaha",
+      "kategori": "sag2",
+      "stil": "foto",
+      "format": "gruppe",
+      "reference": [],
+      "tags": {
+        "person": "christen_nielsen",
+        "aar": 1885,
+        "alder": 41,
+        "koen": "mand"
+      },
+      "beskrivelse": "Danish immigrant blacksmith around 1885 in Omaha, Nebraska, about 41 years old. Big beard, leather apron, rolled-up sleeves, standing proudly in front of his wooden blacksmith workshop with an anvil and horseshoes. A younger man (his brother) leans in the doorway."
+    },
+    {
+      "id": "sag3_niels_bundgaard_1910",
+      "kategori": "sag3",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "niels_bundgaard",
+        "aar": 1910,
+        "alder": 21,
+        "koen": "mand"
+      },
+      "beskrivelse": "Young Danish farmer's son around 1910, 21 years old. Dark hair combed with a side parting, his best Sunday suit a bit too large, stiff proud pose."
+    },
+    {
+      "id": "sag3_bundgaard_gaard",
+      "kategori": "sag3",
+      "stil": "tegning",
+      "format": "baggrund",
+      "reference": [],
+      "tags": {
+        "sted": "Bundgaard, Seem",
+        "aar": 1800
+      },
+      "beskrivelse": "An old thatched four-winged Danish farmhouse in flat marshland near Ribe around 1800. Whitewashed walls, half-timbering, a stork's nest on the roof, a cart in the courtyard, wide sky."
+    },
+    {
+      "id": "sag4_soldat_1",
+      "kategori": "sag4",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "nis_petersen",
+        "aar": 1916,
+        "alder": 19,
+        "koen": "mand",
+        "traek": [
+          "kløft i hagen",
+          "udstående ører",
+          "ar over overlæben",
+          "mørkt hår"
+        ]
+      },
+      "beskrivelse": "Young soldier, 19, in a German First World War field-grey uniform with a round cap, 1916. Dark hair, a cleft chin, protruding ears and a small scar ABOVE HIS UPPER LIP. No scar on the eyebrows. Neutral expression."
+    },
+    {
+      "id": "sag4_soldat_2",
+      "kategori": "sag4",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "joergen_nissen",
+        "aar": 1916,
+        "alder": 20,
+        "koen": "mand",
+        "traek": [
+          "ar gennem højre øjenbryn",
+          "udstående ører",
+          "lyst hår",
+          "overskæg"
+        ]
+      },
+      "beskrivelse": "Young soldier, 20, in a German First World War field-grey uniform with a round cap, 1916. Light-blond hair, small moustache, protruding ears and a thin scar through his RIGHT eyebrow (left side of the image as we look at him). Round chin with NO cleft."
+    },
+    {
+      "id": "sag4_soldat_3",
+      "kategori": "sag4",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [
+        "oldefar_reference"
+      ],
+      "tags": {
+        "person": "oldefar",
+        "aar": 1916,
+        "alder": 19,
+        "koen": "mand",
+        "traek": [
+          "kløft i hagen",
+          "udstående ører",
+          "lyst hår",
+          "ar gennem venstre øjenbryn"
+        ]
+      },
+      "beskrivelse": "The same young man as in the reference image, 19, now in a German First World War field-grey uniform with a round cap, 1916. Same cleft chin, protruding ears, light-blond hair and thin scar through his LEFT eyebrow (right side of the image as we look at him). Clean-shaven, a quiet, uneasy expression."
+    },
+    {
+      "id": "sag4_soldat_4",
+      "kategori": "sag4",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "christian_jessen",
+        "aar": 1916,
+        "alder": 21,
+        "koen": "mand",
+        "traek": [
+          "runde briller",
+          "smalt ansigt",
+          "lyst hår"
+        ]
+      },
+      "beskrivelse": "Young soldier, 21, in a German First World War field-grey uniform with a round cap, 1916. Narrow face, round wire glasses, light hair, small ears close to the head, no scars, a shy smile."
+    },
+    {
+      "id": "sag4_soldat_5",
+      "kategori": "sag4",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "hp_lorenzen",
+        "aar": 1916,
+        "alder": 20,
+        "koen": "mand",
+        "traek": [
+          "kløft i hagen",
+          "små ører",
+          "lyst hår"
+        ]
+      },
+      "beskrivelse": "Young soldier, 20, in a German First World War field-grey uniform with a round cap, 1916. Light hair, a clear cleft chin, but SMALL ears close to the head and NO scars anywhere. Friendly face."
+    },
+    {
+      "id": "sag4_soldat_6",
+      "kategori": "sag4",
+      "stil": "foto",
+      "format": "portraet",
+      "reference": [],
+      "tags": {
+        "person": "andreas_schmidt",
+        "aar": 1916,
+        "alder": 22,
+        "koen": "mand",
+        "traek": [
+          "rundt ansigt",
+          "mørkt overskæg",
+          "mørkt hår"
+        ]
+      },
+      "beskrivelse": "Young soldier, 22, in a German First World War field-grey uniform with a round cap, 1916. Round chubby face, dark hair, thick dark moustache, no scars, cheerful expression."
+    },
+    {
+      "id": "sag4_gruppefoto_1916",
+      "kategori": "sag4",
+      "stil": "foto",
+      "format": "gruppe",
+      "reference": [
+        "sag4_soldat_1",
+        "sag4_soldat_2",
+        "sag4_soldat_3",
+        "sag4_soldat_4",
+        "sag4_soldat_5",
+        "sag4_soldat_6"
+      ],
+      "tags": {
+        "aar": 1916,
+        "sted": "Ballum"
+      },
+      "beskrivelse": "Group photograph from 1916 of six young soldiers in German First World War field-grey uniforms standing in one row in front of a village church wall, in this exact order from left to right: the six men in the reference images, number 1 to 6. Serious faces, some with arms on each other's shoulders."
+    },
+    {
+      "id": "arv_lommeur",
+      "kategori": "arvestykke",
+      "stil": "tegning",
+      "format": "genstand",
+      "reference": [],
+      "tags": {
+        "faetter": "mads"
+      },
+      "beskrivelse": "An old worn silver pocket watch lying open, with a short chain. The inside of the lid has a fine engraving (shown only as decorative swirls, no readable letters)."
+    },
+    {
+      "id": "arv_afklippet_foto",
+      "kategori": "arvestykke",
+      "stil": "tegning",
+      "format": "genstand",
+      "reference": [
+        "sag4_gruppefoto_1916"
+      ],
+      "tags": {
+        "faetter": "jp"
+      },
+      "beskrivelse": "A small old sepia group photograph of six young soldiers in a row, lying on the desk. The face of the THIRD man from the left has been carefully cut out with scissors, leaving a neat oval hole."
+    },
+    {
+      "id": "arv_postkort",
+      "kategori": "arvestykke",
+      "stil": "tegning",
+      "format": "genstand",
+      "reference": [],
+      "tags": {
+        "faetter": "kasper"
+      },
+      "beskrivelse": "An old unsent postcard from around 1918 with a picture of a tall red-brick Romanesque cathedral with a tower in a small Danish town. The address area has been crossed out with ink scribbles (no readable text)."
+    },
+    {
+      "id": "arv_salmebog",
+      "kategori": "arvestykke",
+      "stil": "tegning",
+      "format": "genstand",
+      "reference": [],
+      "tags": {
+        "faetter": "soeren"
+      },
+      "beskrivelse": "A small black hymn book with a worn leather cover lying open at the first page, where an elegant handwritten inscription has been partly rubbed out with an eraser (shown as faded scribbles, no readable text)."
+    },
+    {
+      "id": "arv_soldaterbog",
+      "kategori": "arvestykke",
+      "stil": "tegning",
+      "format": "genstand",
+      "reference": [],
+      "tags": {
+        "faetter": "anders"
+      },
+      "beskrivelse": "A single loose, yellowed, torn-off page from an old German military pay book, with printed form lines and faded handwriting (shown as illegible scribbles, no readable text) and an official round stamp."
+    },
+    {
+      "id": "kontor_trin1",
+      "kategori": "baggrund",
+      "stil": "tegning",
+      "format": "baggrund",
+      "reference": [],
+      "tags": {
+        "sted": "kontor",
+        "trin": 1
+      },
+      "beskrivelse": "A small, slightly shabby genealogy office in an old Ribe townhouse, just inherited. A single wooden desk with an old lamp, stacks of dusty boxes, an empty bookshelf, a crooked window with a view of red-tiled rooftops. Cozy but sparse."
+    },
+    {
+      "id": "kontor_trin2",
+      "kategori": "baggrund",
+      "stil": "tegning",
+      "format": "baggrund",
+      "reference": [
+        "kontor_trin1"
+      ],
+      "tags": {
+        "sted": "kontor",
+        "trin": 2
+      },
+      "beskrivelse": "The same genealogy office as in the reference image, but now tidier and more alive: a bookshelf filled with archive binders, a world map on the wall with pins, a magnifying glass on the desk, a coffee machine, a plant in the window."
+    },
+    {
+      "id": "kontor_trin3",
+      "kategori": "baggrund",
+      "stil": "tegning",
+      "format": "baggrund",
+      "reference": [
+        "kontor_trin2"
+      ],
+      "tags": {
+        "sted": "kontor",
+        "trin": 3
+      },
+      "beskrivelse": "The same genealogy office as in the reference image, now fully grown: a large family-tree wall with photos and red strings, a framed old group photo of soldiers, a comfortable armchair for clients, warm lamplight in the evening."
+    },
+    {
+      "id": "morfar_stue",
+      "kategori": "baggrund",
+      "stil": "tegning",
+      "format": "baggrund",
+      "reference": [],
+      "tags": {
+        "sted": "morfars stue"
+      },
+      "beskrivelse": "A cozy Danish living room of an 81-year-old man: a worn armchair by the window, a coffee table with a thermos and cups, a dresser with family photos in frames, a ticking wall clock, net curtains, soft afternoon light."
+    },
+    {
+      "id": "titelskaerm",
+      "kategori": "baggrund",
+      "stil": "tegning",
+      "format": "baggrund",
+      "reference": [
+        "mads",
+        "jp",
+        "kasper",
+        "soeren",
+        "anders"
+      ],
+      "tags": {
+        "sted": "titel"
+      },
+      "beskrivelse": "Title screen scene: the five young cousins from the reference images standing together, curious and excited, leaning over an old open wooden chest full of letters, photographs and a pocket watch. Behind them, a faint ghostly sepia silhouette of a young soldier looks over their shoulders. Leave the top third as calm sky for the game title."
+    },
+    {
+      "id": "vilslev_kirke",
+      "kategori": "baggrund",
+      "stil": "tegning",
+      "format": "baggrund",
+      "reference": [],
+      "tags": {
+        "sted": "Vilslev",
+        "aar": 1899
+      },
+      "beskrivelse": "A small whitewashed medieval village church in flat Danish marshland in late autumn 1899, with a churchyard of simple grave crosses and bare trees. Grey sky, a few crows. Quiet and melancholic."
+    },
+    {
+      "id": "kongeaa_1917",
+      "kategori": "baggrund",
+      "stil": "tegning",
+      "format": "baggrund",
+      "reference": [
+        "oldefar_reference"
+      ],
+      "tags": {
+        "sted": "Kongeåen",
+        "aar": 1917
+      },
+      "beskrivelse": "Night scene in autumn 1917: a small winding river through flat meadows marking a border, mist over the water, a wooden border post in the distance. A lone young man (seen from behind, light hair, civilian clothes, a small bundle on his back) wades carefully through the shallow river by moonlight."
+    },
+    {
+      "id": "ribe_1925",
+      "kategori": "baggrund",
+      "stil": "tegning",
+      "format": "baggrund",
+      "reference": [],
+      "tags": {
+        "sted": "Ribe",
+        "aar": 1925
+      },
+      "beskrivelse": "A cobblestone street in the old Danish town of Ribe in 1925, crooked half-timbered houses with red tile roofs, the tall brick tower of the cathedral in the background, a bicycle leaning on a wall, people in 1920s clothing."
+    }
+  ]
+}

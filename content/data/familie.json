@@ -1,0 +1,44 @@
+{
+  "_note": "Rammehistoriens faste fakta. Alle personer er fiktive. Bruges af sagerne og må ikke modsiges.",
+  "oldefar": {
+    "rigtigt_navn": "Peter Asmus Hansen",
+    "foedt": "1897-03-14",
+    "foedested": "Ballum sogn, Kreis Tondern (Nordslesvig, dengang tysk)",
+    "laant_navn": "Jens Peder Iversen",
+    "laant_navn_foedt": "1897-05-02",
+    "laant_navn_foedested": "Vilslev sogn ved Gredstedbro (dansk)",
+    "laant_navn_doed": "1899-10-09, 2 år gammel",
+    "laant_navn_foraeldre": "husmand Iver Jensen og Maren Pedersdatter, Gredstedbro",
+    "tjeneste": "Füsilier i Füsilier-Regiment Nr. 86, indkaldt 1915",
+    "desertering": "Efteråret 1917; meldt 'vermißt' i den preussiske tabsliste",
+    "arvelige_traek": ["kløft i hagen", "udstående ører", "lyst hår"],
+    "kendetegn": ["ar gennem venstre øjenbryn"],
+    "doed": "1968, Ribe"
+  },
+  "oldemor_1": {
+    "navn": "Karen Marie Bundgaard",
+    "foedt": "1899, Seem sogn",
+    "gift": "1925-05-16 i Ribe Domkirke med 'Jens Peder Iversen'",
+    "doed": "1940, ingen børn",
+    "note": "Grandtante til Karl Erik Bundgaard (kunde i sag 3)"
+  },
+  "oldemor_2": {
+    "navn": "Ellen Thomsen",
+    "foedt": "1910, Ribe",
+    "gift": "1944 med 'Jens Peder Iversen'"
+  },
+  "morfar": {
+    "navn": "Svend Aage Iversen",
+    "foedt": "1945-02-11, Ribe",
+    "alder_2026": 81,
+    "tilstand": "Lever, glemsom. Husker brudstykker, der låses op efter hver sag.",
+    "arvelige_traek": ["kløft i hagen", "udstående ører"]
+  },
+  "moedre": [
+    { "navn": "Hanne", "soen": "mads", "bor": "Thyborøn" },
+    { "navn": "Birgit", "soen": "jp", "bor": "Tønder" },
+    { "navn": "Lone", "soen": "kasper", "bor": "Aarhus" },
+    { "navn": "Mette", "soen": "soeren", "bor": "Vendsyssel" },
+    { "navn": "Susanne", "soen": "anders", "bor": "Herning" }
+  ]
+}

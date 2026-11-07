@@ -1,0 +1,193 @@
+{
+  "id": "sag3",
+  "kapitel": 1,
+  "nummer": 3,
+  "titel": "Slægten fra Bundgaard",
+  "undertitel": "Tilbage til 1700-tallet",
+  "periode": "1750–1950",
+  "mekanikker": ["stamtrae", "krydstjek"],
+  "kunde": {
+    "navn": "Karl Erik Bundgaard",
+    "alder": 76,
+    "fra": "Ribe",
+    "portraet": "kunde_karl_erik",
+    "intro": "Goddag. Jeg er pensioneret lærer, og nu vil jeg endelig have styr på slægten – helt tilbage til 1700-tallet, hvis det kan lade sig gøre. Navnet Bundgaard kommer fra en gård i Seem, siger de. Jeg har samlet de papirer, familien havde. Resten må I finde.",
+    "kundens_noter": [
+      "Karl Erik Bundgaard, født 1950 i Ribe",
+      "Far: Anders Bundgaard",
+      "Slægtsnavnet kommer fra gården Bundgaard i Seem sogn",
+      "Mål: så langt tilbage som muligt"
+    ]
+  },
+  "opgave": "Byg Karl Eriks stamtræ på fædrene side, led for led, tilbage til 1700-tallet.",
+  "dokumenter": [
+    {
+      "id": "d1_daab_1950",
+      "type": "daabsattest",
+      "titel": "Daabsattest – Ribe Domsogn 1950",
+      "tekst": "Karl Erik, født 3. Marts 1950 i Ribe, døbt i Ribe Domkirke 30. April 1950. Forældre: Arbejdsmand Anders Bundgaard, født 1921 i Ribe, og Hustru Inger Bundgaard, født Lund."
+    },
+    {
+      "id": "d2_kb_ribe_1921",
+      "type": "kirkebog",
+      "titel": "Ribe Domsogns Kirkebog – Fødte Mandkøn 1921 (uddrag)",
+      "kolonner": ["Nr.", "Fødselsdag", "Daabsdag", "Barnets Navn", "Forældrenes Navne, Stand og Bopæl"],
+      "raekker": [
+        { "id": "r1921_14", "felter": ["14", "8. Juni 1921", "3. Juli", "Anders", "Arbejdsmand Niels Bundgaard og Hustru Johanne Kristine Hansen, Saltgade, Ribe"] },
+        { "id": "r1921_15", "felter": ["15", "12. Juni 1921", "10. Juli", "Anders Peter", "Snedker Anders Jensen og Hustru Marie, Grønnegade, Ribe"] }
+      ]
+    },
+    {
+      "id": "d3_kb_seem",
+      "type": "kirkebog",
+      "titel": "Seem Sogns Kirkebog – Fødte 1889 og 1899 (uddrag)",
+      "kolonner": ["Aar", "Fødselsdag", "Barnets Navn", "Forældrenes Navne, Stand og Bopæl"],
+      "raekker": [
+        { "id": "s1889", "felter": ["1889", "21. Januar", "Niels", "Gaardmand Mads Pedersen Bundgaard og Hustru Maren Nielsdatter af Bundgaard"] },
+        { "id": "s1899", "felter": ["1899", "4. November", "Karen Marie", "Gaardmand Mads Pedersen Bundgaard og Hustru Maren Nielsdatter af Bundgaard"], "skjult_spor": "Niels' lillesøster – oldefars første kone." }
+      ]
+    },
+    {
+      "id": "d4_ft1860_seem",
+      "type": "folketaelling",
+      "titel": "Folketælling 1860 – Ribe Amt, Gørding Herred, Seem Sogn (uddrag)",
+      "kolonner": ["Navn", "Alder", "Civilstand", "Stilling i familien", "Erhverv", "Fødested"],
+      "husstande": [
+        {
+          "sted": "Seem By, Bundgaard",
+          "raekker": [
+            { "id": "b1", "felter": ["Peder Madsen", "38", "Gift", "Husfader", "Gaardmand", "Her i Sognet"] },
+            { "id": "b2", "felter": ["Kirsten Jensdatter", "35", "Gift", "Hans Kone", "", "Vilslev Sogn"] },
+            { "id": "b3", "felter": ["Mads Pedersen", "4", "Ugift", "Deres Barn", "", "Her i Sognet"] },
+            { "id": "b4", "felter": ["Johanne Nielsdatter", "64", "Enke", "Aftægtskone", "", "Seem Sogn"] }
+          ]
+        },
+        {
+          "sted": "Lille Seem, Nørregaard",
+          "raekker": [
+            { "id": "n1", "felter": ["Peder Madsen", "40", "Gift", "Husfader", "Gaardmand", "Hviding Sogn"] },
+            { "id": "n2", "felter": ["Mette Christensdatter", "36", "Gift", "Hans Kone", "", "Her i Sognet"] },
+            { "id": "n3", "felter": ["Mads Pedersen", "5", "Ugift", "Deres Barn", "", "Her i Sognet"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d5_skifte_1834",
+      "type": "skifte",
+      "titel": "Skifteprotokol for Riberhus Amt 1834, fol. 112",
+      "tekst": "Anno 1834 den 18. Juni blev Skifte foretaget efter afdøde Gaardmand Mads Pedersen i Bundgaard, Seem Sogn, imellem Enken Johanne Nielsdatter og deres med hinanden avlede Børn, nemlig: Sønnen Peder Madsen, 12 Aar, Datteren Ane Madsdatter, 9 Aar, og Sønnen Niels Madsen, 6 Aar. Som Formynder for de umyndige Børn beskikkedes Gaardmand Christen Lauridsen af Seem."
+    },
+    {
+      "id": "d6_faeste_1812",
+      "type": "faesteprotokol",
+      "titel": "Fæsteprotokol for Riberhus Amts Ryttergods 1812",
+      "tekst": "Mads Pedersen, 27 Aar gammel, antager herved i Fæste den Gaard i Seem By, kaldet Bundgaard, som hans Fader Peder Madsen formedelst Alderdom og Svaghed har opladt, paa de samme Vilkaar som hans Formand, dog saaledes at bemeldte Peder Madsen og Hustru nyder Aftægt af Gaarden deres Livstid."
+    }
+  ],
+  "stamtrae": {
+    "start": { "slot": "s0", "navn": "Karl Erik Bundgaard", "foedt": "1950" },
+    "slots": [
+      { "id": "s1", "titel": "Far", "barn": "s0", "kildetype": "daabsattest" },
+      { "id": "s2", "titel": "Farfar", "barn": "s1", "kildetype": "kirkebog" },
+      { "id": "s3", "titel": "Oldefar", "barn": "s2", "kildetype": "kirkebog" },
+      { "id": "s4", "titel": "Tipoldefar", "barn": "s3", "kildetype": "folketaelling" },
+      { "id": "s5", "titel": "Tiptipoldefar", "barn": "s4", "kildetype": "skifte" },
+      { "id": "s6", "titel": "Tiptiptipoldefar", "barn": "s5", "kildetype": "faesteprotokol" }
+    ],
+    "personkort": [
+      { "id": "p_anders", "navn": "Anders Bundgaard", "info": "f. 1921, Ribe – arbejdsmand", "korrekt_slot": "s1", "bevis": "d1_daab_1950" },
+      { "id": "p_anders_peter", "navn": "Anders Peter Jensen", "info": "f. 1921, Ribe – snedkersøn", "korrekt_slot": null, "afvisning": "Hans far er snedker Anders Jensen. Han hedder ikke Bundgaard." },
+      { "id": "p_niels", "navn": "Niels Bundgaard", "info": "f. 1889, Seem – arbejdsmand i Ribe", "korrekt_slot": "s2", "bevis": "d2_kb_ribe_1921" },
+      { "id": "p_mads_b", "navn": "Mads Pedersen Bundgaard", "info": "f. ca. 1856, Seem – gaardmand på Bundgaard", "korrekt_slot": "s3", "bevis": "d3_kb_seem" },
+      { "id": "p_peder_b", "navn": "Peder Madsen (Bundgaard)", "info": "f. ca. 1822, Seem – gaardmand", "korrekt_slot": "s4", "bevis": "d4_ft1860_seem" },
+      { "id": "p_peder_n", "navn": "Peder Madsen (Nørregaard)", "info": "f. ca. 1820, Hviding – gaardmand i Lille Seem", "korrekt_slot": null, "afvisning": "Samme navn, men han bor på Nørregaard. Slægtsnavnet kommer fra Bundgaard." },
+      { "id": "p_mads_1785", "navn": "Mads Pedersen", "info": "f. ca. 1785 – gaardmand på Bundgaard, død 1834", "korrekt_slot": "s5", "bevis": "d5_skifte_1834" },
+      { "id": "p_niels_madsen", "navn": "Niels Madsen", "info": "f. ca. 1828 – søn af Mads Pedersen", "korrekt_slot": null, "afvisning": "Han er bror til Peder Madsen – en sidegren, ikke en direkte forfader." },
+      { "id": "p_peder_1750", "navn": "Peder Madsen", "info": "f. ca. 1750 – fæster på Bundgaard til 1812", "korrekt_slot": "s6", "bevis": "d6_faeste_1812" }
+    ]
+  },
+  "trin": [
+    {
+      "id": "t1",
+      "type": "stamtrae",
+      "spoergsmaal": "Træk de rigtige personer ind på pladserne i Karl Eriks stamtræ.",
+      "loesning": { "s1": "p_anders", "s2": "p_niels", "s3": "p_mads_b", "s4": "p_peder_b", "s5": "p_mads_1785", "s6": "p_peder_1750" },
+      "feedback_rigtig": "Syv generationer – fra 1950 tilbage til ca. 1750. Og læg mærke til mønstret: Mads, Peder, Mads, Peder. Sønnen blev opkaldt efter farfaren."
+    },
+    {
+      "id": "t2",
+      "type": "vaelg_raekke",
+      "intro": "Karl Erik er så glad, at han tager en ekstra kasse frem: »Min farfars lillesøster, Karen Marie, er der også papirer på. Hun giftede sig med en mand, som ingen i familien rigtig kendte. Her er deres vielsesattest.«",
+      "ekstra_dokumenter": ["d7_vielse_1925", "d8_kb_vilslev_doede_1899"],
+      "dokument": "d8_kb_vilslev_doede_1899",
+      "spoergsmaal": "Brudgommen hedder Jens Peder Iversen – det er jo oldefars navn! Han er født i Vilslev 1897 som søn af husmand Iver Jensen. Find ham i Vilslevs kirkebog.",
+      "kandidater": ["v1899_06", "v1899_11", "v1899_14"],
+      "loesning": "v1899_11",
+      "feedback_forkert": {
+        "v1899_06": "Navnet ligner, men forældrene er forkerte.",
+        "v1899_14": "Faren hedder Iver, men det er en anden dreng."
+      },
+      "feedback_rigtig": "Jens Peder Iversen, søn af husmand Iver Jensen og Maren Pedersdatter, Gredstedbro. Død 9. oktober 1899 – 2 år gammel. Men hvem stod så foran alteret i 1925?"
+    }
+  ],
+  "ekstra_dokumenter": [
+    {
+      "id": "d7_vielse_1925",
+      "type": "vielsesattest",
+      "titel": "Vielsesattest – Ribe Domkirke 1925",
+      "tekst": "Den 16. Maj 1925 bleve i Ribe Domkirke ægteviede: Ungkarl, Arbejdsmand Jens Peder Iversen, født 2. Maj 1897 i Vilslev Sogn, Søn af Husmand Iver Jensen og Hustru Maren Pedersdatter, og Pigen Karen Marie Bundgaard, født 4. November 1899 i Seem Sogn, Datter af Gaardmand Mads Pedersen Bundgaard og Hustru Maren Nielsdatter. Forlovere: Niels Bundgaard, Ribe, og Snedker Anders Jensen, Ribe."
+    },
+    {
+      "id": "d8_kb_vilslev_doede_1899",
+      "type": "kirkebog",
+      "titel": "Vilslev Sogns Kirkebog – Døde Mandkøn 1899 (uddrag)",
+      "kolonner": ["Nr.", "Dødsdag", "Begravelsesdag", "Navn, Stand og Bopæl", "Alder"],
+      "raekker": [
+        { "id": "v1899_06", "felter": ["6", "28. Marts 1899", "4. April", "Jens Peter Jensen, Søn af Gaardmand Jens Iversen, Vilslev By", "1 Aar"] },
+        { "id": "v1899_11", "felter": ["11", "9. October 1899", "15. October", "Jens Peder Iversen, Søn af Husmand Iver Jensen og Hustru Maren Pedersdatter, Gredstedbro", "2 Aar 5 Maaneder"] },
+        { "id": "v1899_14", "felter": ["14", "30. November 1899", "6. December", "Peder Iversen, Søn af Husmand Iver Jensen, Gredstedbro. Hjemmedøbt.", "4 Dage"] }
+      ]
+    }
+  ],
+  "hints": [
+    "Start nedefra: dåbsattesten fortæller, hvem Karl Eriks far er.",
+    "Hver kilde peger ét led længere tilbage. Kirkebøgerne giver forældrene ved fødslen.",
+    "Der er to Peder Madsen i Seem i 1860. Slægtsnavnet kommer fra gården – hvem bor på Bundgaard?",
+    "Skiftet fra 1834 og fæsteprotokollen fra 1812 tager dig de sidste to led tilbage.",
+    "Til sidst: læs dødsfaldene i Vilslev 1899. Find drengen, hvis forældre er de samme som brudgommens."
+  ],
+  "ordbog": ["Skifte", "Fæster", "Fæsteprotokol", "Aftægt", "Arbejdsmand", "Domsogn", "Hjemmedøbt", "Gaardmand"],
+  "afslutning": {
+    "kunde": "Syv generationer! Jeg kan næsten ikke tro det. Og I må gerne låne bryllupsbilledet af Karen Marie og hendes mand. Jeg har altid syntes, han så så alvorlig ud.",
+    "beloenning": { "billede": "oldefar_bryllup_1925", "tekst": "Karl Erik låner jer bryllupsfotoet fra 1925: Karen Marie Bundgaard og »Jens Peder Iversen«." }
+  },
+  "morfar": {
+    "scene": "Fætteren viser morfar bryllupsbilledet. Morfar rører forsigtigt ved Karen Maries ansigt.",
+    "erindring": "Karen Marie… Der var en kvinde før mor, ja. Far havde hendes billede i skuffen, men vi måtte aldrig røre det. Og så var der noget med Kongeåen. Han ville aldrig over Kongeåen. Aldrig. Heller ikke da vi skulle til marked i Tønder.",
+    "notesblok": "Morfar: Oldefar var gift med Karen Marie før mormor. Han ville aldrig over Kongeåen."
+  },
+  "replikker": {
+    "mads": {
+      "start": { "dialekt": "Syv led tebage. Det er en ordentlig lang line, det.", "rigsdansk": "Syv led tilbage. Det er en ordentlig lang line, det." },
+      "slut": { "dialekt": "Død som to-årig. Så hvem fanden war det, vi kaldt' oldefar?", "rigsdansk": "Død som toårig. Så hvem pokker var det, vi kaldte oldefar?" }
+    },
+    "jp": {
+      "start": { "dialekt": "En lærer! Han ka' sikkert sin historie. Lad os vis' ham, vi også ka' vor'.", "rigsdansk": "En lærer! Han kan sikkert sin historie. Lad os vise ham, at vi også kan vores." },
+      "slut": { "dialekt": "Ham dæ i kirkebogen døde i 1899. Men oldefar blev gift i 1925. Det ka' da et passe, vel?", "rigsdansk": "Ham der i kirkebogen døde i 1899. Men oldefar blev gift i 1925. Det kan da ikke passe, vel?" }
+    },
+    "kasper": {
+      "start": { "dialekt": "Stamtræ! Mit yndlingsformat. Syv generationer, seks kilder – det kan lige gå op.", "rigsdansk": "Stamtræ! Mit yndlingsformat. Syv generationer, seks kilder – det kan lige gå op." },
+      "slut": { "dialekt": "Okay. Okay, okay. Det her er en fejl i datasættet. Eller… også er det ik' en fejl.", "rigsdansk": "Okay. Okay, okay. Det her er en fejl i datasættet. Eller… også er det ikke en fejl." }
+    },
+    "soeren": {
+      "start": { "dialekt": "Fra Bundgaard i Seem. Gårde havde navne dengang, og folk blev opkaldt efter dem. Smukt, hwa?", "rigsdansk": "Fra Bundgaard i Seem. Gårde havde navne dengang, og folk blev opkaldt efter dem. Smukt, ikke?" },
+      "slut": { "dialekt": "En lille dreng, der døde i 1899. Og en mand, der gik rundt med hans navn i 70 år. Det er det mest ensomme, a har læst.", "rigsdansk": "En lille dreng, der døde i 1899. Og en mand, der gik rundt med hans navn i 70 år. Det er det mest ensomme, jeg har læst." }
+    },
+    "anders": {
+      "start": { "dialekt": "1700-tallet? Fint nok. Én generation ad gangen, så er vi der før aftensmaden.", "rigsdansk": "1700-tallet? Fint nok. Én generation ad gangen, så er vi der før aftensmad." },
+      "slut": { "dialekt": "Vent lige. Oldefar war død, før han blev gift? Det må a lige ringe te mor om.", "rigsdansk": "Vent lige. Oldefar var død, før han blev gift? Det må jeg lige ringe til mor om." }
+    }
+  },
+  "oplaasninger": ["arkiv_skifter", "arkiv_faesteprotokoller", "vaerktoej_stamtraevaeg", "kontor_reol"]
+}

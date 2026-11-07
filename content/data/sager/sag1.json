@@ -1,0 +1,156 @@
+{
+  "id": "sag1",
+  "kapitel": 1,
+  "nummer": 1,
+  "titel": "Ane Kirstine fra Hviding",
+  "undertitel": "Tutorial",
+  "periode": "1855–1880",
+  "mekanikker": ["krydstjek"],
+  "kunde": {
+    "navn": "Bodil Kjær",
+    "alder": 71,
+    "fra": "Esbjerg",
+    "portraet": "kunde_bodil",
+    "intro": "Goddag! Jeg er så glad for, at I har åbnet igen. Min mormor fortalte altid om sin mor, Ane Kirstine – hun var født i Hviding, giftede sig med en daglejer og boede i Vilslev sogn ved Gredstedbro. Min mormor, Mette Marie, kom til verden omkring 1878. Men jeg kan ikke finde Ane Kirstine nogen steder. Der er så mange af dem!",
+    "kundens_noter": [
+      "Oldemor: Ane Kirstine",
+      "Født ca. 1855 i Hviding sogn",
+      "Gift med en daglejer",
+      "Boede i Vilslev sogn omkring 1880",
+      "Datter: Mette Marie, født ca. 1878"
+    ]
+  },
+  "opgave": "Find Bodils oldemor i folketællingen 1880, og bekræft hendes fødsel i Hvidings kirkebog.",
+  "tutorial": [
+    { "trin": 1, "tekst": "Tryk på Bodils noter for at fastgøre dem i notesblokken. Så har du dem altid ved hånden." },
+    { "trin": 2, "tekst": "Åbn folketællingen. Hver linje er en person. Husstande står samlet, med husfaderen øverst." },
+    { "trin": 3, "tekst": "Der er flere Ane Kirstine'r. Tjek hver af dem mod noterne: alder, fødested, ægtemandens erhverv og børn." },
+    { "trin": 4, "tekst": "Tryk på den linje, du tror er den rigtige, og vælg »Det er hende«." },
+    { "trin": 5, "tekst": "Sidder du fast, så tryk på pæren. Hints er gratis – brug dem bare." },
+    { "trin": 6, "tekst": "Læg mærke til efternavnene: Hansdatter betyder datter af Hans. Det kan du bruge i kirkebogen." }
+  ],
+  "dokumenter": [
+    {
+      "id": "ft1880_vilslev",
+      "type": "folketaelling",
+      "titel": "Folketælling 1880 – Ribe Amt, Gørding Herred, Vilslev Sogn (uddrag)",
+      "aar": 1880,
+      "kolonner": ["Navn", "Alder", "Civilstand", "Stilling i familien", "Erhverv", "Fødested"],
+      "husstande": [
+        {
+          "sted": "Gredstedbro, Et Hus (Matr. 12)",
+          "raekker": [
+            { "id": "h12_1", "felter": ["Niels Christensen", "31", "Gift", "Husfader", "Daglejer", "Vilslev Sogn"] },
+            { "id": "h12_2", "felter": ["Ane Kirstine Hansdatter", "25", "Gift", "Hans Kone", "", "Hviding Sogn"] },
+            { "id": "h12_3", "felter": ["Mette Marie Nielsen", "2", "Ugift", "Deres Barn", "", "Her i Sognet"] },
+            { "id": "h12_4", "felter": ["Hans Nielsen", "0", "Ugift", "Deres Barn", "", "Her i Sognet"] }
+          ]
+        },
+        {
+          "sted": "Vilslev By, En Gaard (Matr. 14)",
+          "raekker": [
+            { "id": "h14_1", "felter": ["Peder Jensen", "54", "Gift", "Husfader", "Gaardmand", "Vilslev Sogn"] },
+            { "id": "h14_2", "felter": ["Ane Kirstine Pedersdatter", "50", "Gift", "Hans Kone", "", "Vilslev Sogn"] },
+            { "id": "h14_3", "felter": ["Ane Kirstine Pedersen", "19", "Ugift", "Deres Barn", "", "Her i Sognet"] },
+            { "id": "h14_4", "felter": ["Jens Pedersen", "16", "Ugift", "Deres Barn", "", "Her i Sognet"] },
+            { "id": "h14_5", "felter": ["Iver Jensen", "20", "Ugift", "Tjenestefolk", "Tjenestekarl", "Vilslev Sogn"], "skjult_spor": "Iver Jensen – far til den Jens Peder Iversen, hvis navn oldefar senere låner. Spilleren lægger først mærke til ham i sag 3." }
+          ]
+        },
+        {
+          "sted": "Gredstedbro, Et Hus (Matr. 19)",
+          "raekker": [
+            { "id": "h19_1", "felter": ["Christen Madsen", "44", "Enkemand", "Husfader", "Smed", "Gjørding Sogn"] },
+            { "id": "h19_2", "felter": ["Ane Kirstine Christensdatter", "27", "Ugift", "Tjenestefolk", "Husholderske", "Hviding Sogn"] }
+          ]
+        },
+        {
+          "sted": "Vilslev By, Et Hus (Matr. 21)",
+          "raekker": [
+            { "id": "h21_1", "felter": ["Ane Kirstine Jensen", "62", "Enke", "Husmoder", "Aftægtskone", "Hviding Sogn"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kb_hviding_1853_1855",
+      "type": "kirkebog",
+      "titel": "Hviding Sogns Kirkebog – Fødte Kvindekøn 1853–1855 (uddrag)",
+      "kolonner": ["Nr.", "Fødselsdag", "Daabsdag", "Barnets Navn", "Forældrenes Navne, Stand og Bopæl", "Faddere"],
+      "raekker": [
+        { "id": "kb_1853_04", "felter": ["4", "11. Februar 1853", "6. Marts", "Ane Kirstine", "Gaardmand Christen Lauridsen og Hustru Mette Madsdatter af Hviding", "Pigen Ane Lauridsdatter; Gmd. Mads Nielsen; Niels Christensen"] },
+        { "id": "kb_1854_09", "felter": ["9", "2. September 1854", "1. October", "Maren", "Husmand Peder Thomsen og Hustru Kirsten Jensdatter af Rejsby", "Gmd. Jens Hansen; Pigen Karen Thomsdatter"] },
+        { "id": "kb_1855_07", "felter": ["7", "3. April 1855", "29. April", "Ane Kirstine", "Husmand Hans Nielsen og Hustru Kirsten Marie Jensdatter af Hviding Mark", "Kirsten Nielsdatter; Ungkarl Jens Jensen; Inderste Peder Hansen"] },
+        { "id": "kb_1855_11", "felter": ["11", "19. Juni 1855", "15. Juli", "Ane Kirstine", "Gaardmand Jens Pedersen og Hustru Ane Marie Iversdatter af Hviding", "Gmd. Iver Jensen; Pigen Mette Pedersdatter"] }
+      ]
+    }
+  ],
+  "trin": [
+    {
+      "id": "t1",
+      "type": "vaelg_raekke",
+      "dokument": "ft1880_vilslev",
+      "spoergsmaal": "Hvilken Ane Kirstine er Bodils oldemor?",
+      "kandidater": ["h12_2", "h14_2", "h14_3", "h19_2", "h21_1"],
+      "loesning": "h12_2",
+      "feedback_forkert": {
+        "h14_2": "Hun er 50 og gift med en gaardmand – Bodils oldemor var omkring 25 og gift med en daglejer.",
+        "h14_3": "Hun er født i Vilslev, ikke Hviding, og er ugift i 1880.",
+        "h19_2": "Hun er fra Hviding og på den rigtige alder – men hun er ugift husholderske og har ingen datter.",
+        "h21_1": "Hun er født i Hviding, men er 62 år og enke."
+      },
+      "feedback_rigtig": "Ane Kirstine Hansdatter, 25 år, født i Hviding, gift med daglejer Niels Christensen – og datteren Mette Marie er 2 år. Alt passer!"
+    },
+    {
+      "id": "t2",
+      "type": "vaelg_raekke",
+      "dokument": "kb_hviding_1853_1855",
+      "spoergsmaal": "Hun hedder Hansdatter. Hvilken fødsel i Hvidings kirkebog er hendes?",
+      "kandidater": ["kb_1853_04", "kb_1855_07", "kb_1855_11"],
+      "loesning": "kb_1855_07",
+      "feedback_forkert": {
+        "kb_1853_04": "Faren hedder Christen – så ville hun hedde Christensdatter. Det er nok husholdersken fra matr. 19.",
+        "kb_1855_11": "Faren hedder Jens – så ville hun hedde Jensdatter."
+      },
+      "feedback_rigtig": "Datter af husmand Hans Nielsen – derfor Hansdatter. Født 3. april 1855, og 25 år i 1880 passer præcis."
+    }
+  ],
+  "hints": [
+    "Start med alderen: Bodil siger, at oldemor er født ca. 1855. Hvor gammel er hun så i 1880?",
+    "Hun var gift med en daglejer og havde en lille datter, Mette Marie. Kig efter en husstand, hvor det hele passer.",
+    "Matr. 12 i Gredstedbro: Niels Christensen er daglejer, og datteren Mette Marie er 2 år.",
+    "I kirkebogen: Hansdatter betyder datter af Hans. Find barnet, hvis far hedder Hans."
+  ],
+  "ordbog": ["Folketælling", "Daglejer", "Gaardmand", "Husholderske", "Aftægtskone / aftægtsmand", "Tjenestekarl / tjenestepige", "Patronym", "Kirkebog", "Enke / enkemand"],
+  "afslutning": {
+    "kunde": "Ane Kirstine Hansdatter… Hun har fået et efternavn! Tusind tak. Må jeg komme igen, hvis jeg finder flere?",
+    "beloenning": { "billede": "sag1_ane_kirstine_1895", "tekst": "Bodil sender et foto af Ane Kirstine fra ca. 1895, som hun fandt i en kasse efter besøget." }
+  },
+  "morfar": {
+    "scene": "Fætteren ringer til morfar for at fortælle om den første sag. Ordet Vilslev får ham til at gå i stå.",
+    "erindring": "Vilslev… Far sagde altid, han var fra Vilslev. Men da vi var til begravelse dér engang, kendte han ingen. Ikke en eneste. Det tænkte jeg ikke over, dengang.",
+    "notesblok": "Morfar: Oldefar sagde, han var fra Vilslev – men kendte ingen dér."
+  },
+  "replikker": {
+    "mads": {
+      "start": { "dialekt": "Første kunde. Nå. Lad os se, hva' æ papir sir.", "rigsdansk": "Første kunde. Nå. Lad os se, hvad papirerne siger." },
+      "slut": { "dialekt": "Vilslev, sagde han. Hm. Det sætter a lige i æ notesblok.", "rigsdansk": "Vilslev, sagde han. Hm. Det skriver jeg lige i notesblokken." }
+    },
+    "jp": {
+      "start": { "dialekt": "Fru Kjær! Kom indenfor, sæt dæ. Kaffe? Så finder vi hinner oldemor, det lover a.", "rigsdansk": "Fru Kjær! Kom indenfor, sæt dig. Kaffe? Så finder vi hendes oldemor, det lover jeg." },
+      "slut": { "dialekt": "Morfar blev helt stille. Dæ' sker ellers aldrig.", "rigsdansk": "Morfar blev helt stille. Det sker ellers aldrig." }
+    },
+    "kasper": {
+      "start": { "dialekt": "Okay, folketælling 1880 – det er faktisk en af de bedste. Navn, alder, fødested. Lad os sortere!", "rigsdansk": "Okay, folketælling 1880 – det er faktisk en af de bedste. Navn, alder, fødested. Lad os sortere!" },
+      "slut": { "dialekt": "Vent… hvis oldefar var fra Vilslev, burde han jo være i kirkebogen dér. Den laver jaj en kolonne til.", "rigsdansk": "Vent… hvis oldefar var fra Vilslev, burde han jo være i kirkebogen dér. Den laver jeg en kolonne til." }
+    },
+    "soeren": {
+      "start": { "dialekt": "Ane Kirstine fra Hviding. Det lyder som begyndelsen på en vise, hwa?", "rigsdansk": "Ane Kirstine fra Hviding. Det lyder som begyndelsen på en vise, ikke?" },
+      "slut": { "dialekt": "En mand, der er fra et sted, hvor ingen kender ham. Det er også begyndelsen på en historie.", "rigsdansk": "En mand, der er fra et sted, hvor ingen kender ham. Det er også begyndelsen på en historie." }
+    },
+    "anders": {
+      "start": { "dialekt": "Første kunde, første sag. Den klarer vi før frokost.", "rigsdansk": "Første kunde, første sag. Den klarer vi før frokost." },
+      "slut": { "dialekt": "Kendte ingen i sin egen by? Det lugter lidt, hva?", "rigsdansk": "Kendte ingen i sin egen by? Det lugter lidt, hvad?" }
+    }
+  },
+  "oplaasninger": ["arkiv_kirkeboeger", "vaerktoej_notesblok", "kontor_skrivebordslampe"]
+}
