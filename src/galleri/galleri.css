@@ -1,4 +1,4 @@
-.galleri { background: #efe6d2; min-height: 100dvh; padding: 16px; color: #2a1e16; }
+.galleri { background: #efe6d2; position: fixed; inset: 0; overflow: auto; padding: 16px; color: #2a1e16; touch-action: pan-y; }
 .galleri h1 { margin: 0 0 4px; }
 .galleri h2 { margin: 28px 0 10px; border-bottom: 2px solid #2a1e16; }
 .galleri .note { margin: 0; opacity: 0.7; }

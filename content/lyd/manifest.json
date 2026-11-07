@@ -1,0 +1,25 @@
+{
+  "_note": "Lydmanifest. Læg lydfiler i content/lyd/ med de angivne filnavne (fx papir.mp3 eller papir.ogg). Manglende filer giver ingen fejl – så er der bare stille. 'type' er 'effekt' eller 'musik'. Morfars erindringer ('erindring_sagN') afspilles, når man ringer til ham.",
+  "lyde": {
+    "papir": { "type": "effekt", "fil": "papir", "beskrivelse": "papir der flyttes" },
+    "side": { "type": "effekt", "fil": "side", "beskrivelse": "side der vendes" },
+    "bog_aaben": { "type": "effekt", "fil": "bog_aaben", "beskrivelse": "bog der åbnes" },
+    "bog_luk": { "type": "effekt", "fil": "bog_luk", "beskrivelse": "bog der lukkes" },
+    "stempel": { "type": "effekt", "fil": "stempel", "beskrivelse": "stempel" },
+    "skuffe": { "type": "effekt", "fil": "skuffe", "beskrivelse": "skuffe" },
+    "blyant": { "type": "effekt", "fil": "blyant", "beskrivelse": "blyant" },
+    "telefon_ringer": { "type": "effekt", "fil": "telefon_ringer", "beskrivelse": "telefon der ringer" },
+    "telefon_summer": { "type": "effekt", "fil": "telefon_summer", "beskrivelse": "telefon der summer (chat)" },
+    "lup": { "type": "effekt", "fil": "lup", "beskrivelse": "luppen lægges ned" },
+    "knappenaal": { "type": "effekt", "fil": "knappenaal", "beskrivelse": "knappenål" },
+    "frimaerke": { "type": "effekt", "fil": "frimaerke", "beskrivelse": "frimærke der klistres ind" },
+    "kort_fold": { "type": "effekt", "fil": "kort_fold", "beskrivelse": "kort der foldes ud" },
+    "kurv": { "type": "effekt", "fil": "kurv", "beskrivelse": "papir i papirkurven" },
+    "musik_dag": { "type": "musik", "fil": "musik_dag", "beskrivelse": "rolig baggrundsmusik, dag" },
+    "musik_aften": { "type": "musik", "fil": "musik_aften", "beskrivelse": "rolig baggrundsmusik, aften" },
+    "erindring_sag1": { "type": "erindring", "fil": "erindring_sag1", "beskrivelse": "morfars erindring efter sag 1" },
+    "erindring_sag2": { "type": "erindring", "fil": "erindring_sag2", "beskrivelse": "morfars erindring efter sag 2" },
+    "erindring_sag3": { "type": "erindring", "fil": "erindring_sag3", "beskrivelse": "morfars erindring efter sag 3" },
+    "erindring_sag4": { "type": "erindring", "fil": "erindring_sag4", "beskrivelse": "morfars erindring efter sag 4" }
+  }
+}
