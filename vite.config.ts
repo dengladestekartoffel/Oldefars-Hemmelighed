@@ -5,11 +5,16 @@ import { VitePWA } from 'vite-plugin-pwa';
 // GitHub Pages serverer siden under /<repo-navn>/
 const BASE = '/Oldefars-Hemmelighed/';
 
+// FORHAANDSVISNING=1 bygger en udgave med relative stier og uden service worker,
+// som kan lægges op som forhåndsvisning andre steder end GitHub Pages.
+const forhaand = !!process.env.FORHAANDSVISNING;
+
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? BASE : '/',
+  base: forhaand ? './' : command === 'build' ? BASE : '/',
+  build: forhaand ? { outDir: 'dist-forhaand', modulePreload: false } : undefined,
   plugins: [
     preact(),
-    VitePWA({
+    !forhaand && VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['ikon.svg'],
       manifest: {
