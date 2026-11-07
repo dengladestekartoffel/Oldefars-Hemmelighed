@@ -1,0 +1,10 @@
+:root {
+  --papir: #f4ead4;
+  --blaek: #2a1e16;
+  --trae: #a86f42;
+  --tekst-skala: 1;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #3b2a1e; color: var(--blaek); font-family: Georgia, 'Times New Roman', serif; }
+.midt { min-height: 100dvh; display: grid; place-content: center; text-align: center; color: var(--papir); padding: 16px; }

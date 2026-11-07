@@ -1,0 +1,201 @@
+{
+  "_note": "Parametre til ansigtsgeneratoren (src/grafik/ansigt). Lavet ud fra billeder/manifest.json, data/familie.json, data/faetre.json og sagerne. 'grund' er personens faste parametre; 'aldre' overskriver dem for en bestemt alder/version. Arvelige træk (hage, ører, ar) ændres aldrig mellem aldre. 'venstre_bryn' = personens eget venstre øjenbryn = til højre i billedet.",
+  "personer": {
+    "oldefar": {
+      "navn": "Peter Asmus Hansen (kaldet Jens Peder Iversen)",
+      "note": "Kendetegn: kløft i hagen, udstående ører, lyst hår, ar gennem VENSTRE øjenbryn.",
+      "grund": {
+        "koen": "mand", "alder": 19, "form": "oval", "kloeft": true, "oerer": "udstaaende",
+        "oejne": "mandel", "bryn": "normale", "ar": "venstre_bryn", "naese": "lige", "mund": "normal",
+        "haarfarve": "lysblond", "frisure": "kortklippet", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": -2, "hud": "lys", "toej": "bondetoej_mand", "hovedbeklaedning": null, "udtryk": "neutral", "baggrund": "#e7dcc6"
+      },
+      "aldre": {
+        "1916": { "alder": 19, "toej": "feltgraa", "hovedbeklaedning": "feltmuetze", "udtryk": "bekymret" },
+        "1917": { "alder": 20, "toej": "bondetoej_mand", "udtryk": "bekymret" },
+        "1925": { "alder": 28, "frisure": "sideskilning", "skaeg": "overskaeg", "toej": "jakkesaet", "udtryk": "neutral" },
+        "1945": { "alder": 48, "frisure": "sideskilning", "skaldethed": 0.15, "skaeg": "overskaeg", "toej": "toej_1940_mand", "udtryk": "bekymret", "rekvisit": "baby" }
+      }
+    },
+    "morfar": {
+      "navn": "Svend Aage Iversen",
+      "arv_fra": ["oldefar"],
+      "note": "Har oldefars kløft og ører – men INTET ar.",
+      "grund": {
+        "koen": "mand", "alder": 81, "form": "oval", "kloeft": true, "oerer": "udstaaende",
+        "oejne": "mandel", "bryn": "kraftige", "ar": null, "naese": "stor", "mund": "normal",
+        "haarfarve": "lysblond", "frisure": "tyndt", "skaldethed": 0.65, "skaeg": "ingen", "briller": null,
+        "haeldning": 3, "hud": "lys_rosa", "toej": "cardigan", "hovedbeklaedning": null, "udtryk": "glad", "rekvisit": "kaffekop", "baggrund": "#eadcc4"
+      }
+    },
+    "karen_marie": {
+      "navn": "Karen Marie Bundgaard",
+      "grund": {
+        "koen": "kvinde", "alder": 25, "form": "oval", "kloeft": false, "oerer": "normale",
+        "oejne": "runde", "bryn": "tynde", "ar": null, "naese": "lille", "mund": "normal",
+        "haarfarve": "lysbrun", "frisure": "knold", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": 4, "hud": "lys_rosa", "toej": "soendagstoej_kvinde", "hovedbeklaedning": null, "udtryk": "glad", "baggrund": "#e7dcc6"
+      },
+      "aldre": {
+        "1925_bryllup": { "toej": "brudekjole", "hovedbeklaedning": "sloer", "rekvisit": "buket" }
+      }
+    },
+    "mads": {
+      "navn": "Mads",
+      "arv_fra": ["oldefar"],
+      "grund": {
+        "koen": "mand", "alder": 23, "form": "kantet", "kloeft": false, "oerer": "udstaaende",
+        "oejne": "smalle", "bryn": "kraftige", "ar": null, "naese": "lige", "mund": "smal",
+        "haarfarve": "moerkblond", "frisure": "pjusket", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": -3, "hud": "vejrbidt", "toej": "strik", "toejFarve": "#2f3e5c", "hovedbeklaedning": null, "udtryk": "neutral", "baggrund": "#b9c7d2"
+      }
+    },
+    "jp": {
+      "navn": "Jens Peter (JP)",
+      "arv_fra": ["oldefar"],
+      "grund": {
+        "koen": "mand", "alder": 24, "form": "oval", "kloeft": true, "oerer": "normale",
+        "oejne": "runde", "bryn": "normale", "ar": null, "naese": "lige", "mund": "fyldig",
+        "haarfarve": "brun", "frisure": "boelget", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": 5, "hud": "lys_varm", "toej": "flannel", "toejFarve": "#a8432f", "hovedbeklaedning": null, "udtryk": "griner", "baggrund": "#f3dc8e"
+      }
+    },
+    "kasper": {
+      "navn": "Kasper",
+      "grund": {
+        "koen": "mand", "alder": 22, "form": "smal", "kloeft": false, "oerer": "normale",
+        "oejne": "runde", "bryn": "normale", "ar": null, "naese": "stor", "mund": "normal",
+        "haarfarve": "moerkbrun", "frisure": "pjusket", "skaldethed": 0, "skaeg": "ingen", "briller": "firkantede",
+        "haeldning": -4, "hud": "lys", "fregner": true, "toej": "hoodie", "toejFarve": "#5f7d6e", "hovedbeklaedning": null, "udtryk": "overrasket", "baggrund": "#bfe0cf"
+      }
+    },
+    "soeren": {
+      "navn": "Søren",
+      "arv_fra": ["oldefar"],
+      "grund": {
+        "koen": "mand", "alder": 25, "form": "oval", "kloeft": false, "oerer": "normale",
+        "oejne": "mandel", "bryn": "tynde", "ar": null, "naese": "krum", "mund": "normal",
+        "haarfarve": "lysblond", "frisure": "langt", "skaldethed": 0, "skaeg": "kort_skaeg", "skaegfarve": "moerkblond", "briller": null,
+        "haeldning": 6, "hud": "lys", "toej": "fløjlsjakke", "toejFarve": "#8a5a3a", "hovedbeklaedning": null, "udtryk": "taenker", "blik": -1, "baggrund": "#cfc3df"
+      }
+    },
+    "anders": {
+      "navn": "Anders",
+      "arv_fra": ["oldefar"],
+      "grund": {
+        "koen": "mand", "alder": 21, "form": "rund", "kloeft": true, "oerer": "udstaaende",
+        "oejne": "runde", "bryn": "normale", "ar": null, "naese": "lille", "mund": "fyldig",
+        "haarfarve": "lysbrun", "frisure": "kort", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": 3, "hud": "lys_varm", "toej": "vest_polo", "toejFarve": "#3d4a3a", "hovedbeklaedning": null, "udtryk": "griner", "baggrund": "#f2b582"
+      }
+    },
+    "bodil": {
+      "navn": "Bodil Kjær",
+      "grund": {
+        "koen": "kvinde", "alder": 71, "form": "rund", "kloeft": false, "oerer": "normale",
+        "oejne": "runde", "bryn": "tynde", "ar": null, "naese": "lille", "mund": "normal",
+        "haarfarve": "graa", "frisure": "kroellet", "skaldethed": 0, "skaeg": "ingen", "briller": "runde", "brillekaede": true,
+        "haeldning": -5, "hud": "lys_rosa", "toej": "cardigan", "toejFarve": "#c4567a", "hovedbeklaedning": null, "udtryk": "glad", "rekvisit": "mappe", "baggrund": "#f4c9cf"
+      }
+    },
+    "linda": {
+      "navn": "Linda Petersen",
+      "grund": {
+        "koen": "kvinde", "alder": 58, "form": "oval", "kloeft": false, "oerer": "normale",
+        "oejne": "runde", "bryn": "tynde", "ar": null, "naese": "lille", "mund": "fyldig",
+        "haarfarve": "blond", "farvetHaar": true, "frisure": "pagehaar", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": 4, "hud": "lys_varm", "toej": "denim", "hovedbeklaedning": null, "udtryk": "griner", "rekvisit": "bibel", "baggrund": "#bcd8ee"
+      }
+    },
+    "karl_erik": {
+      "navn": "Karl Erik Bundgaard",
+      "grund": {
+        "koen": "mand", "alder": 76, "form": "kantet", "kloeft": false, "oerer": "normale",
+        "oejne": "smalle", "bryn": "kraftige", "ar": null, "naese": "stor", "mund": "smal",
+        "haarfarve": "moerkbrun", "frisure": "tyndt", "skaldethed": 0.55, "skaeg": "kort_skaeg", "briller": "firkantede", "brillerPaaPanden": true,
+        "haeldning": -2, "hud": "lys", "toej": "tweed", "hovedbeklaedning": null, "udtryk": "neutral", "rekvisit": "kasse", "baggrund": "#c9cfa3"
+      }
+    },
+    "ane_kirstine": {
+      "navn": "Ane Kirstine Hansdatter",
+      "grund": {
+        "koen": "kvinde", "alder": 40, "form": "kantet", "kloeft": false, "oerer": "normale",
+        "oejne": "mandel", "bryn": "normale", "ar": null, "naese": "lige", "mund": "smal",
+        "haarfarve": "brun", "frisure": "midterskilning", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": 1, "hud": "vejrbidt", "toej": "bondetoej_kvinde", "hovedbeklaedning": "toerklaede", "udtryk": "neutral"
+      }
+    },
+    "christen_nielsen": {
+      "navn": "Christen Nielsen",
+      "grund": {
+        "koen": "mand", "alder": 41, "form": "kantet", "kloeft": false, "oerer": "normale",
+        "oejne": "smalle", "bryn": "kraftige", "ar": null, "naese": "stor", "mund": "normal",
+        "haarfarve": "brun", "frisure": "kort", "skaldethed": 0.2, "skaeg": "fuldskaeg", "briller": null,
+        "haeldning": 2, "hud": "vejrbidt", "toej": "smedeforklaede", "hovedbeklaedning": null, "udtryk": "glad"
+      }
+    },
+    "laurids_nielsen": {
+      "navn": "Laurids Nielsen",
+      "grund": {
+        "koen": "mand", "alder": 37, "form": "oval", "kloeft": false, "oerer": "normale",
+        "oejne": "mandel", "bryn": "normale", "ar": null, "naese": "lige", "mund": "normal",
+        "haarfarve": "brun", "frisure": "sideskilning", "skaldethed": 0, "skaeg": "overskaeg", "briller": null,
+        "haeldning": -3, "hud": "vejrbidt", "toej": "bondetoej_mand", "hovedbeklaedning": null, "udtryk": "glad"
+      }
+    },
+    "niels_bundgaard": {
+      "navn": "Niels Bundgaard",
+      "grund": {
+        "koen": "mand", "alder": 21, "form": "oval", "kloeft": false, "oerer": "normale",
+        "oejne": "mandel", "bryn": "normale", "ar": null, "naese": "lige", "mund": "smal",
+        "haarfarve": "moerkbrun", "frisure": "sideskilning", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": 0, "hud": "lys", "toej": "soendagstoej_mand", "hovedbeklaedning": null, "udtryk": "neutral"
+      }
+    },
+    "nis_petersen": {
+      "navn": "Nis Petersen",
+      "grund": {
+        "koen": "mand", "alder": 19, "form": "oval", "kloeft": true, "oerer": "udstaaende",
+        "oejne": "runde", "bryn": "kraftige", "ar": "overlaebe", "naese": "stor", "mund": "normal",
+        "haarfarve": "brun", "frisure": "kortklippet", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": 2, "hud": "lys", "toej": "feltgraa", "hovedbeklaedning": "feltmuetze", "udtryk": "neutral"
+      }
+    },
+    "joergen_nissen": {
+      "navn": "Jørgen Nissen",
+      "grund": {
+        "koen": "mand", "alder": 20, "form": "oval", "kloeft": false, "oerer": "udstaaende",
+        "oejne": "smalle", "bryn": "normale", "ar": "hoejre_bryn", "naese": "lige", "mund": "normal",
+        "haarfarve": "lysblond", "frisure": "kortklippet", "skaldethed": 0, "skaeg": "overskaeg", "briller": null,
+        "haeldning": -3, "hud": "lys", "toej": "feltgraa", "hovedbeklaedning": "feltmuetze", "udtryk": "neutral"
+      }
+    },
+    "christian_jessen": {
+      "navn": "Christian Jessen",
+      "grund": {
+        "koen": "mand", "alder": 21, "form": "smal", "kloeft": false, "oerer": "smaa",
+        "oejne": "runde", "bryn": "tynde", "ar": null, "naese": "lille", "mund": "smal",
+        "haarfarve": "blond", "frisure": "kortklippet", "skaldethed": 0, "skaeg": "ingen", "briller": "runde",
+        "haeldning": 4, "hud": "lys", "toej": "feltgraa", "hovedbeklaedning": "feltmuetze", "udtryk": "glad"
+      }
+    },
+    "hp_lorenzen": {
+      "navn": "H. P. Lorenzen",
+      "grund": {
+        "koen": "mand", "alder": 20, "form": "oval", "kloeft": true, "oerer": "smaa",
+        "oejne": "runde", "bryn": "normale", "ar": null, "naese": "lille", "mund": "normal",
+        "haarfarve": "blond", "frisure": "kortklippet", "skaldethed": 0, "skaeg": "ingen", "briller": null,
+        "haeldning": -2, "hud": "lys_rosa", "toej": "feltgraa", "hovedbeklaedning": "feltmuetze", "udtryk": "glad"
+      }
+    },
+    "andreas_schmidt": {
+      "navn": "Andreas Schmidt",
+      "grund": {
+        "koen": "mand", "alder": 22, "form": "rund", "kloeft": false, "oerer": "normale",
+        "oejne": "smalle", "bryn": "kraftige", "ar": null, "naese": "stor", "mund": "fyldig",
+        "haarfarve": "moerkbrun", "frisure": "kortklippet", "skaldethed": 0, "skaeg": "kraftigt_overskaeg", "briller": null,
+        "haeldning": 3, "hud": "lys_varm", "toej": "feltgraa", "hovedbeklaedning": "feltmuetze", "udtryk": "glad"
+      }
+    }
+  }
+}
